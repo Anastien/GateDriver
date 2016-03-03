@@ -1,0 +1,111 @@
+
+(rules PCB gatedrive
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 296)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.5)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.6)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 300.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 75.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_600:400_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:400_um" "Via[0-1]_600:400_um" default
+  )
+  (via 
+    "Via[0-1]_600:400_um-kicad_default" "Via[0-1]_600:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_600:400_um-14A" "Via[0-1]_600:400_um" 14A
+  )
+  (via 
+    "Via[0-1]_600:400_um-power" "Via[0-1]_600:400_um" power
+  )
+  (via_rule
+    default "Via[0-1]_600:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:400_um-kicad_default"
+  )
+  (via_rule
+    14A "Via[0-1]_600:400_um-14A"
+  )
+  (via_rule
+    power "Via[0-1]_600:400_um-power"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    /~FAULT "/-5v" /15v "Net-(C6-Pad1)" "Net-(Dd1-Pad2)" /C "Net-(GDIC1-Pad2)" "Net-(GDIC1-Pad3)"
+    "Net-(GDIC1-Pad6)" /T1 /~RST "Net-(OPT1-Pad7)" "Net-(OPT1-Pad11)" "Net-(OPT1-Pad15)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class 14A
+    /COM /G
+    (clearance_class 14A)
+    (via_rule 14A)
+    (rule
+      (width 3000.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class power
+    /MICsupply /GND1
+    (clearance_class power)
+    (via_rule power)
+    (rule
+      (width 500.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

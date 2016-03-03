@@ -1,0 +1,12 @@
+component name,value,supplier
+R1,10K,
+C3,330pF,
+D1,1N5821,??????
+"C1,C5,C2,C4",0.1uF,
+D2,FR307,??????
+C6,100pF,
+C7,10nF,
+"R3,R6",100,
+R2,25K,
+R5,30&0?5watt,
+R4,60,

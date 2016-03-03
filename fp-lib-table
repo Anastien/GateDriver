@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name gatedrive)(type KiCad)(uri "$(KIPRJMOD)/gatedrive.pretty")(options "")(descr ""))
+)
