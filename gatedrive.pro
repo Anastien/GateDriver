@@ -1,4 +1,4 @@
-update=21 فبر, 2016 EET 09:34:18 م
+update=08 أبر, 2016 EET 10:53:41 م
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,22 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=gatedrive
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
+ERC_TestSimilarLabels=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../../kicad_sources/library-repos/kicad-library/library
 [eeschema/libraries]
 LibName1=gatedrive-rescue
 LibName2=power
@@ -58,16 +71,3 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=attatchments/GateDrive
-[general]
-version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=gatedrive
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
-ERC_TestSimilarLabels=1

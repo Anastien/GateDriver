@@ -35,588 +35,237 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
-Title "IGBT GATE DRIVE SCHEMATIC."
-Date "2016-03-02"
-Rev "1"
+Sheet 1 10
+Title "IGBT GATE DRIVER SCHEMATIC."
+Date "2016-04-04"
+Rev "3"
 Comp "VSD GRADUATION PROJECT."
-Comment1 "THIS CIRCUIT IS A PROTOTYPE VERSION."
+Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L IXDD614PI-RESCUE-gatedrive IC2
-U 1 1 56AA23B0
-P 7900 5100
-F 0 "IC2" H 7900 4900 60  0000 C CNN
-F 1 "IXDD614PI" H 7950 5450 60  0000 C CNN
-F 2 "gatedrive:DIP-8_W7.62mm_LongPads" H 7900 5200 60  0001 C CNN
-F 3 "" H 7900 5200 60  0000 C CNN
-F 4 "CHINA[already bought]" H 7900 5100 60  0001 C CNN "Supplier"
-	1    7900 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L HCPL-316J-RESCUE-gatedrive IC1
-U 1 1 56AA4203
-P 5550 4750
-F 0 "IC1" H 5550 4150 60  0000 C CNN
-F 1 "HCPL-316J" H 5300 5200 60  0000 C CNN
-F 2 "Housings_SOIC:SOIC-16_7.5x10.3mm_Pitch1.27mm" H 5550 4750 60  0001 C CNN
-F 3 "" H 5550 4750 60  0000 C CNN
-F 4 "CHINA [ already bought]" H 5550 4750 60  0001 C CNN "Supplier"
-	1    5550 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R6
-U 1 1 56AB2D1B
-P 6800 4950
-F 0 "R6" V 6900 4900 50  0000 C CNN
-F 1 "100" V 6800 4950 50  0000 C CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" V 6730 4950 50  0001 C CNN
-F 3 "" H 6800 4950 50  0000 C CNN
-	1    6800 4950
-	0    1    1    0   
-$EndComp
-$Comp
-L CONN_01X03 p1
-U 1 1 56AB2F15
-P 850 5100
-F 0 "p1" H 850 4900 50  0000 C CNN
-F 1 "SMPS CONNECTOR." V 950 5100 39  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-3pol" H 850 5100 50  0001 C CNN
-F 3 "" H 850 5100 50  0000 C CNN
-F 4 "El-Amir Electronics" H 850 5100 60  0001 C CNN "Supplier"
-	1    850  5100
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R3
-U 1 1 56AB33FF
-P 6900 4100
-F 0 "R3" V 7000 4100 50  0000 C CNN
-F 1 "100" V 6900 4100 50  0000 C CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" V 6830 4100 50  0001 C CNN
-F 3 "" H 6900 4100 50  0000 C CNN
-	1    6900 4100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L D D1
-U 1 1 56AB34A1
-P 7350 4100
-F 0 "D1" H 7350 3976 50  0000 C CNN
-F 1 "RGPO2-20" H 7350 3900 50  0000 C CNN
-F 2 "Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10" H 7350 4100 50  0001 C CNN
-F 3 "" H 7350 4100 50  0000 C CNN
-F 4 "El-Amir" H 7350 4100 60  0001 C CNN "Supplier"
-	1    7350 4100
-	-1   0    0    1   
-$EndComp
-Text Notes 700  7250 0    60   ~ 0
-COM is the auxiliary emitter of the IGBT.
-Text Notes 700  7400 0    60   ~ 0
-G is the Gate of the IGBT.
-Text Notes 700  6950 0    60   ~ 0
-T1 is the PWM control signal from the microcontroller.
-$Comp
-L R R1
-U 1 1 56AB443E
-P 3550 4650
-F 0 "R1" V 3450 4650 50  0000 C CNN
-F 1 "10K" V 3550 4650 50  0000 C CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" V 3480 4650 50  0001 C CNN
-F 3 "" H 3550 4650 50  0000 C CNN
-F 4 "EL AMIR" H 3550 4650 60  0001 C CNN "Supplier"
-	1    3550 4650
-	0    1    1    0   
-$EndComp
-$Comp
-L CONN_01X05 p3
-U 1 1 56AB4694
-P 850 6150
-F 0 "p3" H 850 5850 50  0000 C CNN
-F 1 "MIC CONNECTOR." V 950 6150 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x05" H 850 6150 50  0001 C CNN
-F 3 "" H 850 6150 50  0000 C CNN
-F 4 "El-Amir Electronics" H 850 6150 60  0001 C CNN "Supplier"
-	1    850  6150
-	-1   0    0    1   
-$EndComp
-$Comp
-L CP1 C1
-U 1 1 56AB633B
-P 4450 2150
-F 0 "C1" H 4150 2150 50  0000 C CNN
-F 1 "0.1uF" H 4250 2050 50  0000 C CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 4488 2000 50  0001 C CNN
-F 3 "" H 4450 2150 50  0000 C CNN
-F 4 "EL AMIR" H 4450 2150 60  0001 C CNN "Supplier"
-	1    4450 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP1 C6
-U 1 1 56AB6499
-P 6550 3900
-F 0 "C6" H 7000 3900 50  0000 C CNN
-F 1 "100pF" H 6800 3900 50  0000 C CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 6588 3750 50  0001 C CNN
-F 3 "" H 6550 3900 50  0000 C CNN
-	1    6550 3900
-	-1   0    0    1   
-$EndComp
-$Comp
-L CP1 C5
-U 1 1 56AB65A1
-P 8850 2150
-F 0 "C5" H 8450 2150 50  0000 C CNN
-F 1 "0.1uF" H 8450 2050 50  0000 C CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 8888 2000 50  0001 C CNN
-F 3 "" H 8850 2150 50  0000 C CNN
-	1    8850 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP1 C4
-U 1 1 56AB664A
-P 7750 2150
-F 0 "C4" H 7400 2150 50  0000 C CNN
-F 1 "0.1uF" H 7400 2050 50  0000 C CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 7788 2000 50  0001 C CNN
-F 3 "" H 7750 2150 50  0000 C CNN
-	1    7750 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP1 C2
-U 1 1 56AB6AF0
-P 5500 2150
-F 0 "C2" H 5150 2150 50  0000 C CNN
-F 1 "0.1uF" H 5150 2050 50  0000 C CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 5538 2000 50  0001 C CNN
-F 3 "" H 5500 2150 50  0000 C CNN
-	1    5500 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP1 C3
-U 1 1 56AB6DF3
-P 6600 2150
-F 0 "C3" H 6300 2150 50  0000 R CNN
-F 1 "330pF" H 6400 2050 50  0000 R CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 6638 2000 50  0001 C CNN
-F 3 "" H 6600 2150 50  0000 C CNN
-	1    6600 2150
-	1    0    0    -1  
-$EndComp
 Text Notes 3500 800  0    100  Italic 20
 IGBT GATE DRIVER CIRCUIT BASED ON  IXDD614PI AND HCPL-316J.
-Text Notes 700  7100 0    60   ~ 0
-MICSUPP is 5 volt from the vcc of the microcontroller.\n
-Text Notes 5100 5850 2    60   ~ 0
-7,15 must be left unconnected.\n
-Text Notes 700  7700 0    60   ~ 0
-GND1 is the ground of the microcontroller.\n
-NoConn ~ 7500 5050
-Text Notes 6965 5030 0    20   ~ 0
-LEFT OPEN OR CONNECTED TO THE VCC.
-$Comp
-L PWR_FLAG #FLG01
-U 1 1 56ADB084
-P 1300 3800
-F 0 "#FLG01" H 1300 3895 50  0001 C CNN
-F 1 "PWR_FLAG" H 1300 4024 50  0000 C CNN
-F 2 "" H 1300 3800 50  0000 C CNN
-F 3 "" H 1300 3800 50  0000 C CNN
-	1    1300 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG02
-U 1 1 56ADB12A
-P 1750 3800
-F 0 "#FLG02" H 1750 3895 50  0001 C CNN
-F 1 "PWR_FLAG" H 1750 4024 50  0000 C CNN
-F 2 "" H 1750 3800 50  0000 C CNN
-F 3 "" H 1750 3800 50  0000 C CNN
-	1    1750 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG03
-U 1 1 56ADB4FA
-P 1750 2650
-F 0 "#FLG03" H 1750 2745 50  0001 C CNN
-F 1 "PWR_FLAG" H 1750 2874 50  0000 C CNN
-F 2 "" H 1750 2650 50  0000 C CNN
-F 3 "" H 1750 2650 50  0000 C CNN
-	1    1750 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG04
-U 1 1 56ADB5B9
-P 900 2650
-F 0 "#FLG04" H 900 2745 50  0001 C CNN
-F 1 "PWR_FLAG" H 900 2874 50  0000 C CNN
-F 2 "" H 900 2650 50  0000 C CNN
-F 3 "" H 900 2650 50  0000 C CNN
-	1    900  2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG05
-U 1 1 56ADD50A
-P 1300 2650
-F 0 "#FLG05" H 1300 2745 50  0001 C CNN
-F 1 "PWR_FLAG" H 1300 2874 50  0000 C CNN
-F 2 "" H 1300 2650 50  0000 C CNN
-F 3 "" H 1300 2650 50  0000 C CNN
-	1    1300 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG06
-U 1 1 56ADD74F
-P 900 3800
-F 0 "#FLG06" H 900 3895 50  0001 C CNN
-F 1 "PWR_FLAG" H 900 4024 50  0000 C CNN
-F 2 "" H 900 3800 50  0000 C CNN
-F 3 "" H 900 3800 50  0000 C CNN
-	1    900  3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R2
-U 1 1 56AE3064
-P 6500 5150
-F 0 "R2" V 6600 5150 50  0000 C CNN
-F 1 "25K" V 6500 5150 50  0000 C CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" V 6430 5150 50  0001 C CNN
-F 3 "" H 6500 5150 50  0000 C CNN
-	1    6500 5150
-	-1   0    0    1   
-$EndComp
-Text Notes 6650 5000 3    20   ~ 0
-Pull-Down resistor recommended by the data sheet, based on vbe=0.6 which I am not so sure of.
-$Comp
-L CP1 C7
-U 1 1 56AF9CAA
-P 7150 4600
-F 0 "C7" H 7390 4630 50  0000 C CNN
-F 1 "10nF" H 7400 4550 50  0000 C CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 7188 4450 50  0001 C CNN
-F 3 "" H 7150 4600 50  0000 C CNN
-	1    7150 4600
-	-1   0    0    1   
-$EndComp
-$Comp
-L D D2
-U 1 1 56B0BD27
-P 9200 4950
-F 0 "D2" H 9200 4826 50  0000 C CNN
-F 1 "1N5821" H 9200 4750 50  0000 C CNN
-F 2 "Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10" H 9200 4950 50  0001 C CNN
-F 3 "" H 9200 4950 50  0000 C CNN
-F 4 "El-Amir Electronics" H 9200 4950 60  0001 C CNN "Supplier"
-	1    9200 4950
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R4
-U 1 1 56AB56F1
-P 9600 4950
-F 0 "R4" V 9600 4980 50  0000 C CNN
-F 1 "60" V 9500 4950 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 9530 4950 50  0001 C CNN
-F 3 "" H 9600 4950 50  0000 C CNN
-F 4 "Al amir" H 9600 4950 60  0001 C CNN "Supplier"
-	1    9600 4950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R5
-U 1 1 56B0C2BB
-P 9550 5250
-F 0 "R5" V 9550 5240 50  0000 C CNN
-F 1 "30ohm ,0.5W" V 9450 5250 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 9480 5250 50  0001 C CNN
-F 3 "" H 9550 5250 50  0000 C CNN
-F 4 "Supplier_name" H 9550 5250 60  0001 C CNN "Supplier"
-	1    9550 5250
-	0    -1   -1   0   
-$EndComp
-Text Notes 700  7550 0    60   ~ 0
-C is the collector of the IGBT.
-Text GLabel 7800 4100 2    60   Input ~ 0
-C
-Text GLabel 6550 3650 1    60   Input ~ 0
-COM
-Text GLabel 8850 2300 3    60   Input ~ 0
-COM
-Text GLabel 7750 2000 1    60   Input ~ 0
-COM
-Text GLabel 4400 4350 1    60   Input ~ 0
-GND1
-Text GLabel 5500 2300 3    60   Input ~ 0
--5V
-Text GLabel 4450 2000 1    60   Input ~ 0
-MICSUPP
-Text GLabel 5500 2000 1    60   Input ~ 0
-15V
-Text GLabel 4850 4450 0    60   Input ~ 0
-T1
-Text GLabel 6600 2300 3    60   Input ~ 0
-GND1
-Text GLabel 7750 2300 3    60   Input ~ 0
--5V
-Text GLabel 8850 2000 1    60   Input ~ 0
-15V
-Text GLabel 6600 2000 1    60   Input ~ 0
-~FAULT
-Text GLabel 3200 4650 0    60   Input ~ 0
-~FAULT
-Text GLabel 4000 4350 1    60   Input ~ 0
-MICSUPP
-Text GLabel 4450 2300 3    60   Input ~ 0
-~FAULT
-Text GLabel 4000 5300 3    60   Input ~ 0
-GND1
-Text GLabel 4850 4950 0    60   Input ~ 0
-~FAULT
-Text GLabel 4750 5300 3    60   Input ~ 0
-GND1
-Text GLabel 4400 5300 3    60   Input ~ 0
-~RST
-Text GLabel 6300 4350 1    60   Input ~ 0
-COM
-Text GLabel 7800 4400 2    60   Input ~ 0
--5V
-Text GLabel 6500 5300 3    60   Input ~ 0
--5V
-Text GLabel 6300 5300 3    60   Input ~ 0
--5V
-Text Notes 7250 6500 0    60   ~ 0
-I'M USING GLOBAL LABELS INSTEAD OF LOCAL LABELS AS THEY LOOK NEATER, LOL.
-Text GLabel 6450 4800 2    60   Input ~ 0
-15V
-Text GLabel 7500 4850 0    60   Input ~ 0
-15V
-Text GLabel 7500 5150 0    60   Input ~ 0
--5V
-Text GLabel 8350 5150 2    60   Input ~ 0
--5V
-Text GLabel 10200 4950 2    60   Input ~ 0
-G
-Text GLabel 2150 5200 2    60   Input ~ 0
-G
-Text GLabel 1350 6000 1    60   Input ~ 0
-GND1
-Text GLabel 2480 5050 1    60   Input ~ 0
-C
-Text GLabel 1050 5200 2    60   Input ~ 0
--5V
-Text GLabel 1050 6350 2    60   Input ~ 0
-~FAULT
-Text GLabel 1050 6150 2    60   Input ~ 0
-MICSUPP
-Text GLabel 1400 5050 1    60   Input ~ 0
-15V
-Text GLabel 2150 5000 2    60   Input ~ 0
-COM
-$Comp
-L CONN_01X03 p2
-U 1 1 56AB3721
-P 1950 5100
-F 0 "p2" H 1950 4900 50  0000 C CNN
-F 1 "IGBT CONNECTOR." V 2050 5100 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-3pol" H 1950 5100 50  0001 C CNN
-F 3 "" H 1950 5100 50  0000 C CNN
-F 4 "El-Amir Electronics" H 1950 5100 60  0001 C CNN "Supplier"
-	1    1950 5100
-	-1   0    0    1   
-$EndComp
-Text GLabel 1050 5000 2    60   Input ~ 0
-COM
-Text GLabel 1450 6300 3    60   Input ~ 0
-~RST
-Text GLabel 1050 5950 2    60   Input ~ 0
-T1
-Text GLabel 1300 2650 3    60   Input ~ 0
-COM
-Text GLabel 1750 3800 3    60   Input ~ 0
--5V
-Text GLabel 1300 3800 3    60   Input ~ 0
-15V
-Text GLabel 900  2650 3    60   Input ~ 0
-MICSUPP
-Text GLabel 900  3800 3    60   Input ~ 0
-T1
-Text GLabel 1750 2650 3    60   Input ~ 0
-GND1
 Text Notes 3200 950  0    60   ~ 0
 the circuit  drives a single IGBT and works as low side and high side drive with undervoltage lockout and DESAT protection.\n
-Text Notes 700  2200 0    60   ~ 0
-power flags  are used to tell the Eeschema program \nwhich pins are driven by powe sources, \nthey have no physical existance.\n
-Text Notes 5300 2850 0    60   ~ 0
-0.1 uF are bypass caps, the 330 pF is the fault filter cap.
-Text Notes 700  4575 0    60   ~ 12
-Output and Input ports\ngrouped togeather.
-Text Notes 5950 3800 0    39   ~ 0
-blanking capacitor
-Text Notes 3275 4775 0    30   ~ 0
-Fault pull-up resistor.
-Text Notes 6885 4225 0    30   ~ 0
-DESAT resistor and diode.
-Text Notes 7250 4605 0    30   ~ 0
-a cap to ensure soft turn-off, recommended by datasheet of hcpl.
-Wire Wire Line
-	6950 4950 7150 4950
-Wire Wire Line
-	7150 4950 7500 4950
-Wire Wire Line
-	6250 4950 6500 4950
-Wire Wire Line
-	6500 4950 6650 4950
-Wire Wire Line
-	6250 5050 6250 5100
-Wire Wire Line
-	6250 5100 6250 5150
-Wire Wire Line
-	6250 4750 6250 4800
-Wire Wire Line
-	6250 4800 6250 4850
-Connection ~ 6550 4100
-Wire Wire Line
-	6550 4650 6250 4650
-Wire Wire Line
-	6550 4100 6750 4100
-Wire Wire Line
-	6550 4050 6550 4100
-Wire Wire Line
-	6550 4100 6550 4650
-Connection ~ 8450 4950
-Wire Wire Line
-	7150 4750 7150 4950
-Connection ~ 7150 4950
-Wire Wire Line
-	3700 4650 4000 4650
-Wire Wire Line
-	4000 4650 4850 4650
-Wire Wire Line
-	8350 4950 8450 4950
-Wire Wire Line
-	8450 4950 8900 4950
-Wire Wire Line
-	8900 4950 9050 4950
-Wire Wire Line
-	9350 4950 9450 4950
-Wire Wire Line
-	9750 4950 9950 4950
-Wire Wire Line
-	9950 4950 10200 4950
-Wire Wire Line
-	9700 5250 9950 5250
-Wire Wire Line
-	9950 5250 9950 4950
-Connection ~ 9950 4950
-Wire Wire Line
-	8350 5050 8450 5050
-Wire Wire Line
-	8450 5050 8450 4950
-Connection ~ 6500 4950
-Wire Wire Line
-	4400 4350 4400 4550
-Wire Wire Line
-	4400 4550 4850 4550
-Wire Wire Line
-	4000 4350 4000 4650
-Connection ~ 4000 4650
-Wire Wire Line
-	4000 5300 4000 4750
-Wire Wire Line
-	4000 4750 4850 4750
-Wire Wire Line
-	4850 5150 4750 5150
-Wire Wire Line
-	4750 5150 4750 5300
-Wire Wire Line
-	4850 4850 4400 4850
-Wire Wire Line
-	4400 4850 4400 5300
-Wire Wire Line
-	6250 4450 6300 4450
-Wire Wire Line
-	6300 4450 6300 4350
-Wire Wire Line
-	7150 4450 7150 4450
-Wire Wire Line
-	6300 5300 6300 5100
-Wire Wire Line
-	6300 5100 6250 5100
-Connection ~ 6250 5100
-Wire Wire Line
-	6250 4800 6450 4800
-Connection ~ 6250 4800
-Wire Wire Line
-	2150 5100 2480 5100
-Wire Wire Line
-	2480 5100 2480 5050
-Wire Wire Line
-	1050 5100 1400 5100
-Wire Wire Line
-	1050 6250 1450 6250
-Wire Wire Line
-	1450 6250 1450 6300
-Wire Wire Line
-	1050 6050 1350 6050
-Wire Wire Line
-	1400 5100 1400 5050
-Wire Wire Line
-	8900 5250 9400 5250
-Wire Wire Line
-	8900 5250 8900 4950
-Connection ~ 8900 4950
-Wire Wire Line
-	3200 4650 3400 4650
-Wire Wire Line
-	7150 4450 7150 4400
-Wire Wire Line
-	7150 4400 7800 4400
-Wire Wire Line
-	7500 4100 7800 4100
-Wire Wire Line
-	6550 3750 6550 3650
-Wire Wire Line
-	1350 6050 1350 6000
-Wire Wire Line
-	7050 4100 7200 4100
-Text GLabel 1475 3050 0    60   Input ~ 0
-~RST
+$Sheet
+S 1350 2025 1650 1300
+U 56EF01DA
+F0 "GD1" 60
+F1 "GD1.sch" 60
+F2 "T1" I L 1350 2175 60 
+$EndSheet
+$Sheet
+S 6650 3975 1650 1300
+U 56EF0567
+F0 "GD7" 60
+F1 "GD7.sch" 60
+F2 "T7" I R 8300 5150 60 
+$EndSheet
 $Comp
-L PWR_FLAG #FLG07
-U 1 1 56C3962F
-P 1475 3050
-F 0 "#FLG07" H 1475 3145 50  0001 C CNN
-F 1 "PWR_FLAG" V 1625 3050 50  0000 C CNN
-F 2 "" H 1475 3050 50  0000 C CNN
-F 3 "" H 1475 3050 50  0000 C CNN
-	1    1475 3050
+L CONN_01X12 P1
+U 1 1 56EF0F9E
+P 1000 6525
+F 0 "P1" V 1100 6525 50  0000 C CNN
+F 1 "Mic General Connector" V 1225 6550 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_1x12" H 1000 6525 50  0001 C CNN
+F 3 "" H 1000 6525 50  0000 C CNN
+	1    1000 6525
+	-1   0    0    1   
+$EndComp
+$Sheet
+S 4000 3975 1650 1300
+U 56EF0565
+F0 "GD6" 60
+F1 "GD6.sch" 60
+F2 "T6" I R 5650 5150 60 
+$EndSheet
+$Sheet
+S 1350 3975 1650 1300
+U 56EF0563
+F0 "GD5" 60
+F1 "GD5.sch" 60
+F2 "T5" I R 3000 5150 60 
+$EndSheet
+$Sheet
+S 9250 3975 1650 1300
+U 56EF0569
+F0 "GD8" 60
+F1 "GD8.sch" 60
+F2 "T8" I R 10900 5150 60 
+$EndSheet
+$Sheet
+S 9300 2050 1650 1300
+U 56EF0560
+F0 "GD4" 60
+F1 "GD4.sch" 60
+F2 "T4" I L 9300 2200 60 
+$EndSheet
+$Sheet
+S 6650 2025 1650 1300
+U 56EF055E
+F0 "GD3" 60
+F1 "GD3.sch" 60
+F2 "T3" I L 6650 2175 60 
+$EndSheet
+$Sheet
+S 4000 2025 1650 1300
+U 56EF055C
+F0 "GD2" 60
+F1 "GD2.sch" 60
+F2 "T2" I L 4000 2175 60 
+$EndSheet
+Text Label 1350 2175 2    60   ~ 0
+T1
+Text Label 4000 2175 2    60   ~ 0
+T2
+Text Label 6650 2175 2    60   ~ 0
+T3
+Text Label 9300 2200 2    60   ~ 0
+T4
+Text Label 1200 6875 0    60   ~ 0
+T1
+Text Label 1200 6775 0    60   ~ 0
+T2
+Text Label 1200 6675 0    60   ~ 0
+T3
+Text Label 1200 6575 0    60   ~ 0
+T4
+Text Label 1200 6475 0    60   ~ 0
+T5
+Text Label 1200 6375 0    60   ~ 0
+T6
+Text Label 1200 6275 0    60   ~ 0
+T7
+Text Label 1200 6175 0    60   ~ 0
+T8
+Text Label 3000 5150 0    60   ~ 0
+T5
+Text Label 5650 5150 0    60   ~ 0
+T6
+Text Label 8300 5150 0    60   ~ 0
+T7
+Text Label 10900 5150 0    60   ~ 0
+T8
+Text GLabel 1200 5975 2    60   Input ~ 0
+~FAULT
+Text GLabel 1450 6175 3    60   Input ~ 0
+~RST
+Wire Wire Line
+	1450 6175 1450 6075
+Wire Wire Line
+	1450 6075 1200 6075
+Text GLabel 1200 6975 2    60   Input ~ 0
+GND1
+Text GLabel 1350 7100 3    60   Input ~ 0
+MICSUPP
+Wire Wire Line
+	1350 7100 1350 7075
+Wire Wire Line
+	1350 7075 1200 7075
+$Comp
+L LED D19
+U 1 1 56F4E3CD
+P 2625 6450
+F 0 "D19" H 2625 6150 50  0000 C CNN
+F 1 "LED" H 2625 6250 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 2625 6450 50  0001 C CNN
+F 3 "" H 2625 6450 50  0000 C CNN
+	1    2625 6450
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D17
+U 1 1 56F4E65F
+P 2600 6900
+F 0 "D17" H 2600 6600 50  0000 C CNN
+F 1 "LED" H 2600 6700 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 2600 6900 50  0001 C CNN
+F 3 "" H 2600 6900 50  0000 C CNN
+	1    2600 6900
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D18
+U 1 1 56F4E764
+P 2600 7200
+F 0 "D18" H 2600 6900 50  0000 C CNN
+F 1 "LED" H 2600 7000 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 2600 7200 50  0001 C CNN
+F 3 "" H 2600 7200 50  0000 C CNN
+	1    2600 7200
+	-1   0    0    1   
+$EndComp
+Text GLabel 3125 6450 2    60   Input ~ 0
+GND1
+Text GLabel 2425 6450 0    60   Input ~ 0
+MICSUPP
+$Comp
+L R R51
+U 1 1 56F4EED0
+P 2975 6450
+F 0 "R51" V 2750 6450 50  0000 C CNN
+F 1 "R" V 2850 6450 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 2905 6450 50  0001 C CNN
+F 3 "" H 2975 6450 50  0000 C CNN
+	1    2975 6450
 	0    1    1    0   
 $EndComp
+Text GLabel 2400 6900 0    60   Input ~ 0
+~FAULT
+Text GLabel 3100 6900 2    60   Input ~ 0
+GND1
+$Comp
+L R R49
+U 1 1 56F4F5F2
+P 2950 6900
+F 0 "R49" V 2725 6900 50  0000 C CNN
+F 1 "R" V 2825 6900 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 2880 6900 50  0001 C CNN
+F 3 "" H 2950 6900 50  0000 C CNN
+	1    2950 6900
+	0    1    1    0   
+$EndComp
+Text GLabel 2400 7200 0    60   Input ~ 0
+~RST
+$Comp
+L R R50
+U 1 1 56F4F84D
+P 2950 7200
+F 0 "R50" V 2725 7200 50  0000 C CNN
+F 1 "R" V 2825 7200 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 2880 7200 50  0001 C CNN
+F 3 "" H 2950 7200 50  0000 C CNN
+	1    2950 7200
+	0    1    1    0   
+$EndComp
+Text GLabel 3100 7200 2    60   Input ~ 0
+GND1
 Wire Notes Line
-	5200 2700 8100 2700
+	1800 6075 3650 6075
 Wire Notes Line
-	8100 2700 8100 2900
+	3650 6075 3650 7475
 Wire Notes Line
-	8100 2900 5200 2900
+	3650 7475 1800 7475
 Wire Notes Line
-	5200 2900 5200 2700
-Wire Wire Line
-	6500 5000 6500 4950
-Text GLabel 8350 4850 2    60   Input ~ 0
-15V
+	1800 7475 1800 6075
+Text Notes 1800 6075 0    60   ~ 0
+Indicators
+Wire Notes Line
+	725  5800 1650 5800
+Wire Notes Line
+	1650 5800 1650 7675
+Wire Notes Line
+	1650 7675 725  7675
+Wire Notes Line
+	725  7675 725  5800
+$Sheet
+S 3850 6300 1250 850 
+U 56FD530B
+F0 "Sheet56FD530A" 60
+F1 "Protection.sch" 60
+$EndSheet
+Text Notes 650  7650 1    60   ~ 0
+Non-inverting configiration is used for hcpl.\n
 $EndSCHEMATC
