@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:gatedrive-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,7 +28,55 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:GateDrive
+LIBS:74xgxx
+LIBS:ac-dc
+LIBS:actel
+LIBS:Altera
+LIBS:analog_devices
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:dc-dc
+LIBS:diode
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:ir
+LIBS:Lattice
+LIBS:logo
+LIBS:maxim
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:motor_drivers
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:Oscillators
+LIBS:powerint
+LIBS:Power_Management
+LIBS:pspice
+LIBS:references
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:transf
+LIBS:ttl_ieee
+LIBS:video
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:Zilog
 LIBS:gatedrive-cache
 EELAYER 25 0
 EELAYER END
@@ -48,59 +95,61 @@ $EndDescr
 $Comp
 L IXDD614PI-RESCUE-gatedrive IC2
 U 1 1 56EF139A
-P 7900 5100
-F 0 "IC2" H 7900 4900 60  0000 C CNN
+P 8000 5100
+AR Path="/56EF139A" Ref="IC2"  Part="1" 
+AR Path="/56EF01DA/56EF139A" Ref="IC2"  Part="1" 
+F 0 "IC2" H 7950 4950 60  0000 C CNN
 F 1 "IXDD614PI" H 7950 5450 60  0000 C CNN
-F 2 "gatedrive:DIP-8_W7.62mm_LongPads" H 7900 5200 60  0001 C CNN
-F 3 "" H 7900 5200 60  0000 C CNN
-F 4 "CHINA[already bought]" H 7900 5100 60  0001 C CNN "Supplier"
-	1    7900 5100
+F 2 "gatedrive:DIP-8_W7.62mm_LongPads" H 8000 5200 60  0001 C CNN
+F 3 "" H 8000 5200 60  0000 C CNN
+F 4 "CHINA[already bought]" H 8000 5100 60  0001 C CNN "Supplier"
+	1    8000 5100
 	1    0    0    -1  
 $EndComp
 $Comp
-L HCPL-316J-RESCUE-gatedrive IC1
+L HCPL-316J IC1
 U 1 1 56EF13A2
-P 5550 4750
-F 0 "IC1" H 5550 4150 60  0000 C CNN
-F 1 "HCPL-316J" H 5300 5200 60  0000 C CNN
-F 2 "Housings_SOIC:SOIC-16_7.5x10.3mm_Pitch1.27mm" H 5550 4750 60  0001 C CNN
-F 3 "" H 5550 4750 60  0000 C CNN
-F 4 "CHINA [ already bought]" H 5550 4750 60  0001 C CNN "Supplier"
-	1    5550 4750
+P 5550 4850
+F 0 "IC1" H 5300 4350 60  0000 C CNN
+F 1 "HCPL-316J" H 5300 5400 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-16_7.5x10.3mm_Pitch1.27mm" H 5550 4850 60  0001 C CNN
+F 3 "" H 5550 4850 60  0000 C CNN
+F 4 "CHINA [ already bought]" H 5550 4850 60  0001 C CNN "Supplier"
+	1    5550 4850
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R4
 U 1 1 56EF13A9
-P 6800 4950
-F 0 "R4" V 6900 4900 50  0000 C CNN
-F 1 "100" V 6800 4950 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6730 4950 50  0001 C CNN
-F 3 "" H 6800 4950 50  0000 C CNN
-	1    6800 4950
+P 6700 4950
+F 0 "R4" V 6800 4900 50  0000 C CNN
+F 1 "100" V 6700 4950 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6630 4950 50  0001 C CNN
+F 3 "" H 6700 4950 50  0000 C CNN
+	1    6700 4950
 	0    1    1    0   
 $EndComp
 $Comp
 L R R3
 U 1 1 56EF13B2
-P 6800 4100
-F 0 "R3" V 6900 4100 50  0000 C CNN
-F 1 "100" V 6800 4100 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6730 4100 50  0001 C CNN
-F 3 "" H 6800 4100 50  0000 C CNN
-	1    6800 4100
+P 6450 4100
+F 0 "R3" V 6550 4100 50  0000 C CNN
+F 1 "100" V 6450 4100 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6380 4100 50  0001 C CNN
+F 3 "" H 6450 4100 50  0000 C CNN
+	1    6450 4100
 	0    -1   -1   0   
 $EndComp
 $Comp
 L D D1
 U 1 1 56EF13B9
-P 7150 4100
-F 0 "D1" H 7150 3976 50  0000 C CNN
-F 1 "RGPO2-20" H 7150 3900 50  0000 C CNN
-F 2 "Diodes_ThroughHole:Diode_DO-201AD_Horizontal_RM15" H 7150 4100 50  0001 C CNN
-F 3 "" H 7150 4100 50  0000 C CNN
-F 4 "El-Amir" H 7150 4100 60  0001 C CNN "Supplier"
-	1    7150 4100
+P 6950 4100
+F 0 "D1" H 6950 3976 50  0000 C CNN
+F 1 "RGPO2-20" H 6950 3900 50  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-201AD_Horizontal_RM15" H 6950 4100 50  0001 C CNN
+F 3 "" H 6950 4100 50  0000 C CNN
+F 4 "El-Amir" H 6950 4100 60  0001 C CNN "Supplier"
+	1    6950 4100
 	-1   0    0    1   
 $EndComp
 Text Notes 700  7250 0    60   ~ 0
@@ -136,12 +185,12 @@ $EndComp
 $Comp
 L CP1 C3
 U 1 1 56EF13D7
-P 6550 3900
-F 0 "C3" H 7000 3900 50  0000 C CNN
-F 1 "100pF" H 6800 3900 50  0000 C CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 6588 3750 50  0001 C CNN
-F 3 "" H 6550 3900 50  0000 C CNN
-	1    6550 3900
+P 6150 3900
+F 0 "C3" H 6600 3900 50  0000 C CNN
+F 1 "100pF" H 6400 3900 50  0000 C CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 6188 3750 50  0001 C CNN
+F 3 "" H 6150 3900 50  0000 C CNN
+	1    6150 3900
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -267,25 +316,25 @@ $EndComp
 $Comp
 L R R2
 U 1 1 56EF1426
-P 6500 5150
-F 0 "R2" V 6600 5150 50  0000 C CNN
-F 1 "25K" V 6500 5150 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6430 5150 50  0001 C CNN
-F 3 "" H 6500 5150 50  0000 C CNN
-	1    6500 5150
-	-1   0    0    1   
+P 6150 5200
+F 0 "R2" V 6250 5200 50  0000 C CNN
+F 1 "25K" V 6150 5200 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6080 5200 50  0001 C CNN
+F 3 "" H 6150 5200 50  0000 C CNN
+	1    6150 5200
+	0    -1   -1   0   
 $EndComp
-Text Notes 6675 5075 3    28   ~ 6
+Text Notes 6500 5050 3    28   ~ 6
 Pull-Down resistor recommended by the data sheet\n based on vbe=0.6 which I am not so sure of.
 $Comp
 L CP1 C5
 U 1 1 56EF142B
-P 7150 4600
-F 0 "C5" H 7390 4630 50  0000 C CNN
-F 1 "10nF" H 7400 4550 50  0000 C CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 7188 4450 50  0001 C CNN
-F 3 "" H 7150 4600 50  0000 C CNN
-	1    7150 4600
+P 7000 4600
+F 0 "C5" H 7240 4630 50  0000 C CNN
+F 1 "10nF" H 7250 4550 50  0000 C CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 7038 4450 50  0001 C CNN
+F 3 "" H 7000 4600 50  0000 C CNN
+	1    7000 4600
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -343,32 +392,50 @@ DESAT resistor and diode.
 Text Notes 7250 4605 0    30   ~ 0
 a cap to ensure soft turn-off, recommended by datasheet of hcpl.
 Wire Wire Line
-	6950 4950 7500 4950
+	6850 4950 7000 4950
 Wire Wire Line
-	6250 4950 6650 4950
+	7000 4950 7600 4950
 Wire Wire Line
-	6250 5050 6250 5150
+	5750 4950 6350 4950
 Wire Wire Line
-	6250 4750 6250 4850
-Connection ~ 6550 4100
+	6350 4950 6550 4950
 Wire Wire Line
-	6550 4650 6250 4650
+	5750 5050 5750 5100
 Wire Wire Line
-	6550 4100 6650 4100
+	5750 5100 5750 5150
 Wire Wire Line
-	6550 4050 6550 4650
+	5750 4750 5750 4800
+Wire Wire Line
+	5750 4800 5750 4850
+Connection ~ 6150 4100
+Wire Wire Line
+	6150 4650 5750 4650
+Wire Wire Line
+	6150 4100 6300 4100
+Wire Wire Line
+	6150 4050 6150 4100
+Wire Wire Line
+	6150 4100 6150 4650
 Connection ~ 8450 4950
 Wire Wire Line
-	7150 4750 7150 4950
-Connection ~ 7150 4950
+	7000 4750 7000 4950
+Connection ~ 7000 4950
 Wire Wire Line
-	3625 4650 4850 4650
+	3625 4650 4000 4650
 Wire Wire Line
-	8350 4950 9050 4950
+	4000 4650 4850 4650
+Wire Wire Line
+	8350 4950 8450 4950
+Wire Wire Line
+	8450 4950 8900 4950
+Wire Wire Line
+	8900 4950 9050 4950
 Wire Wire Line
 	9350 4950 9450 4950
 Wire Wire Line
-	9750 4950 10200 4950
+	9750 4950 9950 4950
+Wire Wire Line
+	9950 4950 10200 4950
 Wire Wire Line
 	9750 5250 9950 5250
 Wire Wire Line
@@ -378,7 +445,6 @@ Wire Wire Line
 	8350 5050 8450 5050
 Wire Wire Line
 	8450 5050 8450 4950
-Connection ~ 6500 4950
 Wire Wire Line
 	4400 4350 4400 4550
 Wire Wire Line
@@ -399,34 +465,32 @@ Wire Wire Line
 Wire Wire Line
 	4400 4850 4400 5300
 Wire Wire Line
-	6250 4450 6300 4450
+	5750 4450 5800 4450
 Wire Wire Line
-	6300 4450 6300 4350
+	5800 4450 5800 4350
 Wire Wire Line
-	7150 4450 7150 4450
+	5900 5100 5900 5200
 Wire Wire Line
-	6300 5300 6300 5100
+	5900 5200 5900 5300
 Wire Wire Line
-	6300 5100 6250 5100
-Connection ~ 6250 5100
+	5900 5100 5750 5100
+Connection ~ 5750 5100
 Wire Wire Line
-	6250 4800 6450 4800
-Connection ~ 6250 4800
+	5750 4800 5900 4800
+Connection ~ 5750 4800
 Wire Wire Line
 	8900 5250 9450 5250
 Wire Wire Line
 	8900 5250 8900 4950
 Connection ~ 8900 4950
 Wire Wire Line
-	7150 4450 7150 4400
+	7000 4400 7350 4400
 Wire Wire Line
-	7150 4400 7800 4400
+	7100 4100 7350 4100
 Wire Wire Line
-	7300 4100 7800 4100
+	6150 3750 6150 3600
 Wire Wire Line
-	6550 3750 6550 3650
-Wire Wire Line
-	6950 4100 7000 4100
+	6600 4100 6800 4100
 $Comp
 L PWR_FLAG #FLG07
 U 1 1 56EF038A
@@ -446,14 +510,6 @@ Wire Notes Line
 	8100 2900 5200 2900
 Wire Notes Line
 	5200 2900 5200 2700
-Wire Wire Line
-	6500 5000 6500 4950
-Wire Wire Line
-	7500 5050 7175 5050
-Wire Wire Line
-	7175 5050 7175 5075
-Text HLabel 900  3800 3    60   Input ~ 0
-T1
 Text GLabel 3625 4350 1    60   Input ~ 0
 ~FAULT
 Text GLabel 4850 4950 0    60   Input ~ 0
@@ -500,9 +556,9 @@ Text GLabel 8850 2000 1    60   Input ~ 0
 15v1
 Text GLabel 8850 2300 3    60   Input ~ 0
 COM1
-Text GLabel 7800 4100 2    60   Input ~ 0
+Text GLabel 7350 4100 2    60   Input ~ 0
 C1
-Text GLabel 7800 4400 2    60   Input ~ 0
+Text GLabel 7350 4400 2    60   Input ~ 0
 -5V1
 Text GLabel 10200 4950 2    60   Input ~ 0
 G1
@@ -510,22 +566,18 @@ Text GLabel 8350 4850 2    60   Input ~ 0
 15v1
 Text GLabel 8350 5150 2    60   Input ~ 0
 -5V1
-Text GLabel 7500 5150 0    60   Input ~ 0
+Text GLabel 7600 5150 0    60   Input ~ 0
 -5V1
-Text GLabel 7175 5075 3    60   Input ~ 0
+Text GLabel 7000 5200 3    60   Input ~ 0
 15v1
-Text GLabel 6500 5300 3    60   Input ~ 0
+Text GLabel 5900 5300 3    60   Input ~ 0
 -5V1
-Text GLabel 6300 5300 3    60   Input ~ 0
--5V1
-Text GLabel 6450 4800 2    60   Input ~ 0
+Text GLabel 5900 4800 2    60   Input ~ 0
 15v1
-Text GLabel 6300 4350 1    60   Input ~ 0
+Text GLabel 5800 4350 1    60   Input ~ 0
 COM1
-Text GLabel 6550 3650 1    60   Input ~ 0
+Text GLabel 6150 3600 1    60   Input ~ 0
 COM1
-Text GLabel 4850 4450 0    60   Input ~ 0
-T1
 $Comp
 L CONN_01X03 P2
 U 1 1 56FB0E3E
@@ -560,6 +612,24 @@ Text GLabel 1550 5175 2    60   Input ~ 0
 C1
 Text GLabel 1550 5275 2    60   Input ~ 0
 G1
-Text GLabel 7500 4850 0    60   Input ~ 0
+Text GLabel 7600 4850 0    60   Input ~ 0
 15v1
+Text HLabel 900  3800 3    60   Input ~ 0
+T1
+Text HLabel 4850 4450 0    60   Input ~ 0
+T1
+Wire Wire Line
+	6300 5200 6350 5200
+Wire Wire Line
+	6350 5200 6350 4950
+Connection ~ 6350 4950
+Wire Wire Line
+	6000 5200 5900 5200
+Connection ~ 5900 5200
+Wire Wire Line
+	7000 4400 7000 4450
+Wire Wire Line
+	7600 5050 7000 5050
+Wire Wire Line
+	7000 5050 7000 5200
 $EndSCHEMATC
