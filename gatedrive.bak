@@ -104,43 +104,43 @@ F1 "GD1.sch" 60
 F2 "T1" I L 1350 2175 60 
 $EndSheet
 $Sheet
-S 6650 3975 1650 1300
+S 6650 3950 1650 1300
 U 56EF0567
 F0 "GD7" 60
 F1 "GD7.sch" 60
-F2 "T7" I R 8300 5150 60 
+F2 "T7" I L 6650 4200 60 
 $EndSheet
 $Comp
 L CONN_01X12 P1
 U 1 1 56EF0F9E
 P 1000 6525
 F 0 "P1" V 1100 6525 50  0000 C CNN
-F 1 "Mic General Connector" V 1225 6550 50  0000 C CNN
+F 1 "Mic General Connector" V 1200 6550 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Angled_1x12" H 1000 6525 50  0001 C CNN
 F 3 "" H 1000 6525 50  0000 C CNN
 	1    1000 6525
 	-1   0    0    1   
 $EndComp
 $Sheet
-S 4000 3975 1650 1300
+S 4000 3950 1650 1300
 U 56EF0565
 F0 "GD6" 60
 F1 "GD6.sch" 60
-F2 "T6" I R 5650 5150 60 
+F2 "T6" I L 4000 4200 60 
 $EndSheet
 $Sheet
-S 1350 3975 1650 1300
+S 1350 3950 1650 1300
 U 56EF0563
 F0 "GD5" 60
 F1 "GD5.sch" 60
-F2 "T5" I R 3000 5150 60 
+F2 "T5" I L 1350 4200 60 
 $EndSheet
 $Sheet
-S 9250 3975 1650 1300
+S 9300 3950 1650 1300
 U 56EF0569
 F0 "GD8" 60
 F1 "GD8.sch" 60
-F2 "T8" I R 10900 5150 60 
+F2 "T8" I L 9300 4200 60 
 $EndSheet
 $Sheet
 S 9300 2050 1650 1300
@@ -187,13 +187,13 @@ Text Label 1200 6275 0    60   ~ 0
 T7
 Text Label 1200 6175 0    60   ~ 0
 T8
-Text Label 3000 5150 0    60   ~ 0
+Text Label 1350 4200 2    60   ~ 0
 T5
-Text Label 5650 5150 0    60   ~ 0
+Text Label 4000 4200 2    60   ~ 0
 T6
-Text Label 8300 5150 0    60   ~ 0
+Text Label 6650 4200 2    60   ~ 0
 T7
-Text Label 10900 5150 0    60   ~ 0
+Text Label 9300 4200 2    60   ~ 0
 T8
 Text GLabel 1200 5975 2    60   Input ~ 0
 ~FAULT
@@ -297,7 +297,7 @@ Wire Notes Line
 	3650 7475 1800 7475
 Wire Notes Line
 	1800 7475 1800 6075
-Text Notes 1800 6075 0    60   ~ 0
+Text Notes 1800 6000 0    60   ~ 0
 Indicators
 Wire Notes Line
 	725  5800 1650 5800
@@ -313,6 +313,6 @@ U 56FD530B
 F0 "Sheet56FD530A" 60
 F1 "Protection.sch" 60
 $EndSheet
-Text Notes 650  7650 1    60   ~ 0
+Text Notes 650  7700 1    60   ~ 0
 Non-inverting configiration is used for hcpl.\n
 $EndSCHEMATC

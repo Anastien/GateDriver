@@ -394,50 +394,32 @@ DESAT resistor and diode.
 Text Notes 7250 4605 0    30   ~ 0
 a cap to ensure soft turn-off, reCOM3mended by datasheet of hcpl.
 Wire Wire Line
-	6950 4950 7150 4950
+	6950 4950 7550 4950
 Wire Wire Line
-	7150 4950 7550 4950
+	5900 4950 6650 4950
 Wire Wire Line
-	5900 4950 6500 4950
+	6250 5050 6250 5150
 Wire Wire Line
-	6500 4950 6650 4950
-Wire Wire Line
-	6250 5050 6250 5100
-Wire Wire Line
-	6250 5100 6250 5150
-Wire Wire Line
-	6250 4750 6250 4800
-Wire Wire Line
-	6250 4800 6250 4850
+	6250 4750 6250 4850
 Connection ~ 6550 4100
 Wire Wire Line
-	5900 4650 6550 4650
+	6550 4650 5900 4650
 Wire Wire Line
 	6550 4100 6650 4100
 Wire Wire Line
-	6550 4650 6550 4100
-Wire Wire Line
-	6550 4100 6550 4050
+	6550 4050 6550 4650
 Connection ~ 8450 4950
 Wire Wire Line
 	7150 4750 7150 4950
 Connection ~ 7150 4950
 Wire Wire Line
-	3625 4650 4000 4650
+	3625 4650 5000 4650
 Wire Wire Line
-	4000 4650 5000 4650
-Wire Wire Line
-	8300 4950 8450 4950
-Wire Wire Line
-	8450 4950 8900 4950
-Wire Wire Line
-	8900 4950 9050 4950
+	8300 4950 9050 4950
 Wire Wire Line
 	9350 4950 9450 4950
 Wire Wire Line
-	9750 4950 9950 4950
-Wire Wire Line
-	9950 4950 10200 4950
+	9750 4950 10200 4950
 Wire Wire Line
 	9750 5250 9950 5250
 Wire Wire Line
