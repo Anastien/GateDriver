@@ -1,4 +1,13 @@
 EESchema Schematic File Version 2
+LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
+LIBS:Symbols_EN60617_13Mar2013
+LIBS:Symbols_EN60617-10_HF-Radio_DRAFT_12Sep2013
+LIBS:Symbols_ICs-Diskrete_RevD10
+LIBS:Symbols_ICs-Opto_RevB_16Sep2013
+LIBS:Symbols_Microcontroller_Philips-NXP_RevA_06Oct2013
+LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
+LIBS:Symbols_Socket-DIN41612_RevA
+LIBS:Symbols_Transformer-Diskrete_RevA
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -146,7 +155,7 @@ U 1 1 56EF13B9
 P 6950 4100
 F 0 "D1" H 6950 3976 50  0000 C CNN
 F 1 "RGPO2-20" H 6950 3900 50  0000 C CNN
-F 2 "Diodes_ThroughHole:Diode_DO-201AD_Horizontal_RM15" H 6950 4100 50  0001 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10" H 6950 4100 50  0001 C CNN
 F 3 "" H 6950 4100 50  0000 C CNN
 F 4 "El-Amir" H 6950 4100 60  0001 C CNN "Supplier"
 	1    6950 4100
@@ -164,70 +173,70 @@ U 1 1 56EF13C1
 P 3625 4500
 F 0 "R1" V 3525 4500 50  0000 C CNN
 F 1 "10K" V 3625 4500 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 3555 4500 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 3555 4500 50  0001 C CNN
 F 3 "" H 3625 4500 50  0000 C CNN
 F 4 "EL AMIR" H 3625 4500 60  0001 C CNN "Supplier"
 	1    3625 4500
 	-1   0    0    1   
 $EndComp
 $Comp
-L CP1 C1
+L C C1
 U 1 1 56EF13D1
 P 4450 2150
 F 0 "C1" H 4150 2150 50  0000 C CNN
 F 1 "0.1uF" H 4250 2050 50  0000 C CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 4488 2000 50  0001 C CNN
+F 2 "gatedrive:C_Disc" H 4488 2000 50  0001 C CNN
 F 3 "" H 4450 2150 50  0000 C CNN
 F 4 "EL AMIR" H 4450 2150 60  0001 C CNN "Supplier"
 	1    4450 2150
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C3
+L C C3
 U 1 1 56EF13D7
 P 6150 3900
-F 0 "C3" H 6600 3900 50  0000 C CNN
+F 0 "C3" H 6650 3900 50  0000 C CNN
 F 1 "100pF" H 6400 3900 50  0000 C CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 6188 3750 50  0001 C CNN
+F 2 "gatedrive:C_Disc" H 6188 3750 50  0001 C CNN
 F 3 "" H 6150 3900 50  0000 C CNN
 	1    6150 3900
 	-1   0    0    1   
 $EndComp
 $Comp
-L CP1 C7
+L C C7
 U 1 1 56EF13E1
 P 8850 2150
 F 0 "C7" H 8450 2150 50  0000 C CNN
 F 1 "0.1uF" H 8450 2050 50  0000 C CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 8888 2000 50  0001 C CNN
+F 2 "gatedrive:C_Disc" H 8888 2000 50  0001 C CNN
 F 3 "" H 8850 2150 50  0000 C CNN
 	1    8850 2150
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C6
+L C C6
 U 1 1 56EF13E7
 P 7750 2150
 F 0 "C6" H 7400 2150 50  0000 C CNN
 F 1 "0.1uF" H 7400 2050 50  0000 C CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 7788 2000 50  0001 C CNN
+F 2 "gatedrive:C_Disc" H 7788 2000 50  0001 C CNN
 F 3 "" H 7750 2150 50  0000 C CNN
 	1    7750 2150
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C2
+L C C2
 U 1 1 56EF13EA
 P 5500 2150
 F 0 "C2" H 5150 2150 50  0000 C CNN
 F 1 "0.1uF" H 5150 2050 50  0000 C CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 5538 2000 50  0001 C CNN
+F 2 "gatedrive:C_Disc" H 5538 2000 50  0001 C CNN
 F 3 "" H 5500 2150 50  0000 C CNN
 	1    5500 2150
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C4
+L C C4
 U 1 1 56EF037D
 P 6600 2150
 F 0 "C4" H 6300 2150 50  0000 R CNN
@@ -327,12 +336,12 @@ $EndComp
 Text Notes 6500 5050 3    28   ~ 6
 Pull-Down resistor recommended by the data sheet\n based on vbe=0.6 which I am not so sure of.
 $Comp
-L CP1 C5
+L C C5
 U 1 1 56EF142B
 P 7000 4600
 F 0 "C5" H 7240 4630 50  0000 C CNN
 F 1 "10nF" H 7250 4550 50  0000 C CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 7038 4450 50  0001 C CNN
+F 2 "gatedrive:C_Disc" H 7038 4450 50  0001 C CNN
 F 3 "" H 7000 4600 50  0000 C CNN
 	1    7000 4600
 	-1   0    0    1   
@@ -355,7 +364,7 @@ U 1 1 56EF143A
 P 9600 4950
 F 0 "R5" V 9600 4980 50  0000 C CNN
 F 1 "60" V 9500 4950 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM20mm" V 9530 4950 50  0001 C CNN
+F 2 "gatedrive:Resistor_multi" V 9530 4950 50  0001 C CNN
 F 3 "" H 9600 4950 50  0000 C CNN
 F 4 "Al amir" H 9600 4950 60  0001 C CNN "Supplier"
 	1    9600 4950
@@ -367,7 +376,7 @@ U 1 1 56EF1442
 P 9600 5250
 F 0 "R6" V 9600 5240 50  0000 C CNN
 F 1 "30ohm ,0.5W" V 9500 5250 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM20mm" V 9530 5250 50  0001 C CNN
+F 2 "gatedrive:Resistor_multi" V 9530 5250 50  0001 C CNN
 F 3 "" H 9600 5250 50  0000 C CNN
 F 4 "Supplier_name" H 9600 5250 60  0001 C CNN "Supplier"
 	1    9600 5250
@@ -383,7 +392,7 @@ Text Notes 700  2200 0    60   ~ 0
 power flags  are used to tell the Eeschema program \nwhich pins are driven by powe sources, \nthey have no physical existance.\n
 Text Notes 5300 2850 0    60   ~ 0
 0.1 uF are bypass caps, the 330 pF is the fault filter cap.
-Text Notes 5950 3800 0    39   ~ 0
+Text Notes 5550 3800 0    39   ~ 0
 blanking capacitor
 Text Notes 3525 4650 1    30   ~ 0
 Fault pull-up resistor.
