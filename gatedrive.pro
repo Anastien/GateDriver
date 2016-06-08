@@ -1,4 +1,4 @@
-update=13 أبر, 2016 EET 05:57:56 م
+update=4/24/2016 10:40:11 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -38,7 +38,7 @@ LabSize=60
 ERC_TestSimilarLabels=1
 [eeschema]
 version=1
-LibDir=../../kicad_sources/library-repos/kicad-library/library
+LibDir=../kicad-library/library
 [eeschema/libraries]
 LibName1=contrib_symbols_dl1eic/Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
 LibName2=contrib_symbols_dl1eic/Symbols_EN60617_13Mar2013

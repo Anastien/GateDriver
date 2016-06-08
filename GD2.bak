@@ -91,7 +91,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 9
+Sheet 7 9
 Title "IGBT GATE DRIVE SCHEMATIC."
 Date "2016-03-02"
 Rev "1"
@@ -102,29 +102,31 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L IXDD614PI-RESCUE-gatedrive IC16
+L IXDD614PI IC16
 U 1 1 56EF8E42
-P 7950 5100
+P 7950 4950
 AR Path="/56EF8E42" Ref="IC16"  Part="1" 
 AR Path="/56EF055C/56EF8E42" Ref="IC16"  Part="1" 
-F 0 "IC16" H 7950 4900 60  0000 C CNN
-F 1 "IXDD614PI" H 8000 5450 60  0000 C CNN
-F 2 "gatedrive:DIP-8_W7.62mm_LongPads" H 7950 5200 60  0001 C CNN
-F 3 "" H 7950 5200 60  0000 C CNN
-F 4 "CHINA[already bought]" H 7950 5100 60  0001 C CNN "Supplier"
-	1    7950 5100
+F 0 "IC16" H 7950 4750 60  0000 C CNN
+F 1 "IXDD614PI" H 8000 5300 60  0000 C CNN
+F 2 "gatedrive:DIP-8_W7.62mm_LongPads" H 7950 5050 60  0001 C CNN
+F 3 "" H 7950 5050 60  0000 C CNN
+F 4 "CHINA[already bought]" H 7950 4950 60  0001 C CNN "Supplier"
+	1    7950 4950
 	1    0    0    -1  
 $EndComp
 $Comp
 L HCPL-316J IC15
 U 1 1 56EF8E43
-P 5700 4850
-F 0 "IC15" H 5700 4400 60  0000 C CNN
-F 1 "HCPL-316J" H 5700 5450 60  0000 C CNN
-F 2 "Housings_SOIC:SOIC-16_7.5x10.3mm_Pitch1.27mm" H 5700 4850 60  0001 C CNN
-F 3 "" H 5700 4850 60  0000 C CNN
-F 4 "CHINA [ already bought]" H 5700 4850 60  0001 C CNN "Supplier"
-	1    5700 4850
+P 5400 4750
+AR Path="/56EF8E43" Ref="IC15"  Part="1" 
+AR Path="/56EF055C/56EF8E43" Ref="IC15"  Part="1" 
+F 0 "IC15" H 5400 4300 60  0000 C CNN
+F 1 "HCPL-316J" H 5400 5350 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-16_7.5x10.3mm_Pitch1.27mm" H 5400 4750 60  0001 C CNN
+F 3 "" H 5400 4750 60  0000 C CNN
+F 4 "CHINA [ already bought]" H 5400 4750 60  0001 C CNN "Supplier"
+	1    5400 4750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -401,59 +403,77 @@ DESAT resistor and diode.
 Text Notes 7250 4605 0    30   ~ 0
 a cap to ensure soft turn-off, recommended by datasheet of hcpl.
 Wire Wire Line
-	6950 4950 7550 4950
+	6950 4950 7150 4950
 Wire Wire Line
-	5900 4950 6650 4950
+	7150 4950 7550 4950
 Wire Wire Line
-	5900 5050 5900 5150
+	5900 4950 6500 4950
 Wire Wire Line
-	5900 4750 5900 4850
+	6500 4950 6650 4950
+Wire Wire Line
+	5900 5050 5900 5100
+Wire Wire Line
+	5900 5100 5900 5150
+Wire Wire Line
+	5900 4750 5900 4800
+Wire Wire Line
+	5900 4800 5900 4850
 Connection ~ 6550 4100
 Wire Wire Line
 	6550 4650 5900 4650
 Wire Wire Line
 	6550 4100 6650 4100
 Wire Wire Line
-	6550 4050 6550 4650
+	6550 4050 6550 4100
+Wire Wire Line
+	6550 4100 6550 4650
 Connection ~ 8450 4950
 Wire Wire Line
 	7150 4750 7150 4950
 Connection ~ 7150 4950
 Wire Wire Line
-	3625 4650 5000 4650
+	3625 4650 4000 4650
 Wire Wire Line
-	8300 4950 9050 4950
+	4000 4650 4900 4650
+Wire Wire Line
+	8350 4950 8450 4950
+Wire Wire Line
+	8450 4950 8900 4950
+Wire Wire Line
+	8900 4950 9050 4950
 Wire Wire Line
 	9350 4950 9450 4950
 Wire Wire Line
-	9750 4950 10200 4950
+	9750 4950 9950 4950
+Wire Wire Line
+	9950 4950 10200 4950
 Wire Wire Line
 	9750 5250 9950 5250
 Wire Wire Line
 	9950 5250 9950 4950
 Connection ~ 9950 4950
 Wire Wire Line
-	8300 5050 8450 5050
+	8350 5050 8450 5050
 Wire Wire Line
 	8450 5050 8450 4950
 Connection ~ 6500 4950
 Wire Wire Line
 	4400 4350 4400 4550
 Wire Wire Line
-	4400 4550 5000 4550
+	4400 4550 4900 4550
 Wire Wire Line
 	4000 4350 4000 4650
 Connection ~ 4000 4650
 Wire Wire Line
 	4000 5300 4000 4750
 Wire Wire Line
-	4000 4750 5000 4750
+	4000 4750 4900 4750
 Wire Wire Line
-	5000 5150 4750 5150
+	4900 5150 4750 5150
 Wire Wire Line
 	4750 5150 4750 5300
 Wire Wire Line
-	5000 4850 4400 4850
+	4900 4850 4400 4850
 Wire Wire Line
 	4400 4850 4400 5300
 Wire Wire Line
@@ -512,7 +532,7 @@ Wire Wire Line
 	7175 5050 7175 5075
 Text HLabel 900  3800 3    60   Input ~ 0
 T2
-Text HLabel 5000 4450 0    60   Input ~ 0
+Text HLabel 4900 4450 0    60   Input ~ 0
 T2
 Text GLabel 900  2650 3    60   Input ~ 0
 MICSUPP
@@ -528,7 +548,7 @@ Text GLabel 6600 2300 3    60   Input ~ 0
 GND1
 Text GLabel 6600 2000 1    60   Input ~ 0
 ~FAULT
-Text GLabel 5000 4950 0    60   Input ~ 0
+Text GLabel 4900 4950 0    60   Input ~ 0
 ~FAULT
 Text GLabel 3625 4350 1    60   Input ~ 0
 ~FAULT
@@ -568,9 +588,9 @@ Text GLabel 7800 4100 2    60   Input ~ 0
 C2
 Text GLabel 7800 4400 2    60   Input ~ 0
 -5V2
-Text GLabel 8300 4850 2    60   Input ~ 0
+Text GLabel 8350 4850 2    60   Input ~ 0
 15V2
-Text GLabel 8300 5150 2    60   Input ~ 0
+Text GLabel 8350 5150 2    60   Input ~ 0
 -5V2
 Text GLabel 7550 5150 0    60   Input ~ 0
 -5V2
