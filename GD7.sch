@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:gatedrive-rescue
 LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
 LIBS:Symbols_EN60617_13Mar2013
 LIBS:Symbols_EN60617-10_HF-Radio_DRAFT_12Sep2013
@@ -102,65 +103,49 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L IXDD614PI IC4
-U 1 1 56EFA9D0
-P 7950 4950
-AR Path="/56EFA9D0" Ref="IC4"  Part="1" 
-AR Path="/56EF0567/56EFA9D0" Ref="IC4"  Part="1" 
-F 0 "IC4" H 7950 4750 60  0000 C CNN
-F 1 "IXDD614PI" H 8000 5300 60  0000 C CNN
-F 2 "gatedrive:DIP-8_W7.62mm_LongPads" H 7950 5050 60  0001 C CNN
-F 3 "" H 7950 5050 60  0000 C CNN
-F 4 "CHINA[already bought]" H 7950 4950 60  0001 C CNN "Supplier"
-	1    7950 4950
+L HCPL-316J IC201
+U 1 1 57600CFD
+P 4650 3950
+F 0 "IC201" H 4650 4497 60  0000 C CNN
+F 1 "HCPL-316J" H 4650 4391 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-16_7.5x10.3mm_Pitch1.27mm" H 4650 3950 60  0001 C CNN
+F 3 "" H 4650 3950 60  0000 C CNN
+F 4 "CHINA [ already bought]" H 4650 3950 60  0001 C CNN "Supplier"
+	1    4650 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L HCPL-316J IC3
-U 1 1 56EFA9D1
-P 5350 4750
-AR Path="/56EFA9D1" Ref="IC3"  Part="1" 
-AR Path="/56EF0567/56EFA9D1" Ref="IC3"  Part="1" 
-F 0 "IC3" H 5050 4300 60  0000 C CNN
-F 1 "HCPL-316J" H 5100 5250 60  0000 C CNN
-F 2 "Housings_SOIC:SOIC-16_7.5x10.3mm_Pitch1.27mm" H 5350 4750 60  0001 C CNN
-F 3 "" H 5350 4750 60  0000 C CNN
-F 4 "CHINA [ already bought]" H 5350 4750 60  0001 C CNN "Supplier"
-	1    5350 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R10
-U 1 1 56EFA9D2
-P 6800 4950
-F 0 "R10" V 6900 4900 50  0000 C CNN
-F 1 "100" V 6800 4950 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6730 4950 50  0001 C CNN
-F 3 "" H 6800 4950 50  0000 C CNN
-	1    6800 4950
+L R_Small R204
+U 1 1 57600CFE
+P 6150 4150
+F 0 "R204" V 6225 4150 50  0000 C CNN
+F 1 "100" V 6300 4150 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6080 4150 50  0001 C CNN
+F 3 "" H 6150 4150 50  0000 C CNN
+	1    6150 4150
 	0    1    1    0   
 $EndComp
 $Comp
-L R R9
-U 1 1 56EFA9D4
-P 6800 4100
-F 0 "R9" V 6900 4100 50  0000 C CNN
-F 1 "100" V 6800 4100 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6730 4100 50  0001 C CNN
-F 3 "" H 6800 4100 50  0000 C CNN
-	1    6800 4100
+L R_Small R203
+U 1 1 57600CFF
+P 6150 3300
+F 0 "R203" V 6346 3300 50  0000 C CNN
+F 1 "100" V 6255 3300 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6080 3300 50  0001 C CNN
+F 3 "" H 6150 3300 50  0000 C CNN
+	1    6150 3300
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D3
-U 1 1 56EFA9D5
-P 7150 4100
-F 0 "D3" H 7150 3976 50  0000 C CNN
-F 1 "RGPO2-20" H 7150 3900 50  0000 C CNN
-F 2 "Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10" H 7150 4100 50  0001 C CNN
-F 3 "" H 7150 4100 50  0000 C CNN
-F 4 "El-Amir" H 7150 4100 60  0001 C CNN "Supplier"
-	1    7150 4100
+L D D201
+U 1 1 57600D00
+P 6650 3300
+F 0 "D201" H 6650 3085 50  0000 C CNN
+F 1 "RGPO2-20" H 6650 3176 50  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10" H 6650 3300 50  0001 C CNN
+F 3 "" H 6650 3300 50  0000 C CNN
+F 4 "El-Amir" H 6650 3300 60  0001 C CNN "Supplier"
+	1    6650 3300
 	-1   0    0    1   
 $EndComp
 Text Notes 700  7250 0    60   ~ 0
@@ -170,99 +155,88 @@ G is the Gate of the IGBT.
 Text Notes 700  6950 0    60   ~ 0
 T1 is the PWM control signal from the microcontroller.
 $Comp
-L R R7
-U 1 1 56EFA9D6
-P 3625 4500
-F 0 "R7" V 3525 4500 50  0000 C CNN
-F 1 "10K" V 3625 4500 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 3555 4500 50  0001 C CNN
-F 3 "" H 3625 4500 50  0000 C CNN
-F 4 "EL AMIR" H 3625 4500 60  0001 C CNN "Supplier"
-	1    3625 4500
+L R_Small R201
+U 1 1 57600D01
+P 3650 4050
+F 0 "R201" V 3800 4125 50  0000 R CNN
+F 1 "10K" V 3725 4125 50  0000 R CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 3580 4050 50  0001 C CNN
+F 3 "" H 3650 4050 50  0000 C CNN
+F 4 "EL AMIR" H 3650 4050 60  0001 C CNN "Supplier"
+	1    3650 4050
 	-1   0    0    1   
 $EndComp
 $Comp
-L CP1 C8
-U 1 1 56EFA9D8
-P 4450 2150
-F 0 "C8" H 4150 2150 50  0000 C CNN
-F 1 "0.1uF" H 4250 2050 50  0000 C CNN
-F 2 "gatedrive:C_Disc" H 4488 2000 50  0001 C CNN
-F 3 "" H 4450 2150 50  0000 C CNN
-F 4 "EL AMIR" H 4450 2150 60  0001 C CNN "Supplier"
-	1    4450 2150
+L C_Small C201
+U 1 1 57600D02
+P 3250 4025
+F 0 "C201" V 3050 3925 50  0000 L CNN
+F 1 "0.1uF" V 3125 3925 50  0000 L CNN
+F 2 "gatedrive:C_Disc" H 3288 3875 50  0001 C CNN
+F 3 "" H 3250 4025 50  0000 C CNN
+F 4 "EL AMIR" H 3250 4025 60  0001 C CNN "Supplier"
+	1    3250 4025
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C10
-U 1 1 56EFA9D9
-P 6550 3900
-F 0 "C10" H 7000 3900 50  0000 C CNN
-F 1 "100pF" H 6800 3900 50  0000 C CNN
-F 2 "gatedrive:C_Disc" H 6588 3750 50  0001 C CNN
-F 3 "" H 6550 3900 50  0000 C CNN
-	1    6550 3900
+L C_Small C206
+U 1 1 57600D03
+P 5825 3650
+F 0 "C206" H 5733 3604 50  0000 R CNN
+F 1 "100pF" H 5733 3695 50  0000 R CNN
+F 2 "gatedrive:C_Disc" H 5863 3500 50  0001 C CNN
+F 3 "" H 5825 3650 50  0000 C CNN
+	1    5825 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C203
+U 1 1 57600D04
+P 5250 3800
+F 0 "C203" H 5175 3750 39  0000 R CNN
+F 1 "0.1uF" H 5175 3800 39  0000 R CNN
+F 2 "gatedrive:C_Disc" H 5288 3650 50  0001 C CNN
+F 3 "" H 5250 3800 50  0000 C CNN
+	1    5250 3800
 	-1   0    0    1   
 $EndComp
 $Comp
-L CP1 C14
-U 1 1 56EFA9DA
-P 8850 2150
-F 0 "C14" H 8450 2150 50  0000 C CNN
-F 1 "0.1uF" H 8450 2050 50  0000 C CNN
-F 2 "gatedrive:C_Disc" H 8888 2000 50  0001 C CNN
-F 3 "" H 8850 2150 50  0000 C CNN
-	1    8850 2150
+L C_Small C205
+U 1 1 57600D05
+P 5525 4100
+F 0 "C205" H 5600 4125 39  0000 L CNN
+F 1 "0.1uF" H 5600 4075 39  0000 L CNN
+F 2 "gatedrive:C_Disc" H 5563 3950 50  0001 C CNN
+F 3 "" H 5525 4100 50  0000 C CNN
+	1    5525 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C13
-U 1 1 56EFA9DB
-P 7750 2150
-F 0 "C13" H 7400 2150 50  0000 C CNN
-F 1 "0.1uF" H 7400 2050 50  0000 C CNN
-F 2 "gatedrive:C_Disc" H 7788 2000 50  0001 C CNN
-F 3 "" H 7750 2150 50  0000 C CNN
-	1    7750 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP1 C9
-U 1 1 56EFA9DC
-P 5500 2150
-F 0 "C9" H 5150 2150 50  0000 C CNN
-F 1 "0.1uF" H 5150 2050 50  0000 C CNN
-F 2 "gatedrive:C_Disc" H 5538 2000 50  0001 C CNN
-F 3 "" H 5500 2150 50  0000 C CNN
-	1    5500 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP1 C11
-U 1 1 56EFA9DD
-P 6600 2150
-F 0 "C11" H 6300 2150 50  0000 R CNN
-F 1 "330pF" H 6400 2050 50  0000 R CNN
-F 2 "gatedrive:C_Disc" H 6638 2000 50  0001 C CNN
-F 3 "" H 6600 2150 50  0000 C CNN
-	1    6600 2150
+L C_Small C202
+U 1 1 57600D06
+P 3650 4450
+F 0 "C202" H 3559 4496 50  0000 R CNN
+F 1 "330pF" H 3559 4405 50  0000 R CNN
+F 2 "gatedrive:C_Disc" H 3688 4300 50  0001 C CNN
+F 3 "" H 3650 4450 50  0000 C CNN
+	1    3650 4450
 	1    0    0    -1  
 $EndComp
 Text Notes 3500 800  0    100  Italic 20
 IGBT GATE DRIVER CIRCUIT BASED ON  IXDD614PI AND HCPL-316J.
 Text Notes 700  7100 0    60   ~ 0
-MICSUPP is 5 volt from the vcc of the microcontroller.\n
-Text Notes 3850 4750 3    60   ~ 0
+5 volt is the vcc of the microcontroller.\n
+Text Notes 4450 3325 0    20   ~ 0
 7,15 must be left unconnected.\n
 Text Notes 700  7700 0    60   ~ 0
-GND1 is the ground of the microcontroller.\n
-Text Notes 6965 5030 0    20   ~ 0
-LEFT OPEN OR CONNECTED TO THE VCC.
+GND is the ground of the microcontroller.\n
+Text Notes 6975 4400 0    20   ~ 0
+IN PIN IS LEFT OPEN OR CONNECTED TO THE VCC.
 $Comp
-L PWR_FLAG #FLG01
-U 1 1 56EFA9DE
+L PWR_FLAG #FLG09
+U 1 1 57600D07
 P 1300 3800
-F 0 "#FLG01" H 1300 3895 50  0001 C CNN
+F 0 "#FLG09" H 1300 3895 50  0001 C CNN
 F 1 "PWR_FLAG" H 1300 4024 50  0000 C CNN
 F 2 "" H 1300 3800 50  0000 C CNN
 F 3 "" H 1300 3800 50  0000 C CNN
@@ -270,10 +244,10 @@ F 3 "" H 1300 3800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG02
-U 1 1 56EFA9DF
+L PWR_FLAG #FLG010
+U 1 1 57600D08
 P 1750 3800
-F 0 "#FLG02" H 1750 3895 50  0001 C CNN
+F 0 "#FLG010" H 1750 3895 50  0001 C CNN
 F 1 "PWR_FLAG" H 1750 4024 50  0000 C CNN
 F 2 "" H 1750 3800 50  0000 C CNN
 F 3 "" H 1750 3800 50  0000 C CNN
@@ -281,32 +255,10 @@ F 3 "" H 1750 3800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG03
-U 1 1 56EFA9E0
-P 1750 2650
-F 0 "#FLG03" H 1750 2745 50  0001 C CNN
-F 1 "PWR_FLAG" H 1750 2874 50  0000 C CNN
-F 2 "" H 1750 2650 50  0000 C CNN
-F 3 "" H 1750 2650 50  0000 C CNN
-	1    1750 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG04
-U 1 1 56EFA9E1
-P 900 2650
-F 0 "#FLG04" H 900 2745 50  0001 C CNN
-F 1 "PWR_FLAG" H 900 2874 50  0000 C CNN
-F 2 "" H 900 2650 50  0000 C CNN
-F 3 "" H 900 2650 50  0000 C CNN
-	1    900  2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG05
-U 1 1 56EFA9E2
+L PWR_FLAG #FLG011
+U 1 1 57600D0B
 P 1300 2650
-F 0 "#FLG05" H 1300 2745 50  0001 C CNN
+F 0 "#FLG011" H 1300 2745 50  0001 C CNN
 F 1 "PWR_FLAG" H 1300 2874 50  0000 C CNN
 F 2 "" H 1300 2650 50  0000 C CNN
 F 3 "" H 1300 2650 50  0000 C CNN
@@ -314,10 +266,10 @@ F 3 "" H 1300 2650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG06
-U 1 1 56EFA9E3
+L PWR_FLAG #FLG012
+U 1 1 57600D0C
 P 900 3800
-F 0 "#FLG06" H 900 3895 50  0001 C CNN
+F 0 "#FLG012" H 900 3895 50  0001 C CNN
 F 1 "PWR_FLAG" H 900 4024 50  0000 C CNN
 F 2 "" H 900 3800 50  0000 C CNN
 F 3 "" H 900 3800 50  0000 C CNN
@@ -325,319 +277,311 @@ F 3 "" H 900 3800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R8
-U 1 1 56EFA9E4
-P 6500 5150
-F 0 "R8" V 6600 5150 50  0000 C CNN
-F 1 "25K" V 6500 5150 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6430 5150 50  0001 C CNN
-F 3 "" H 6500 5150 50  0000 C CNN
-	1    6500 5150
-	-1   0    0    1   
+L R_Small R202
+U 1 1 57600D0D
+P 5825 4300
+F 0 "R202" V 5750 4300 39  0000 C CNN
+F 1 "25K" V 5700 4300 39  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 5755 4300 50  0001 C CNN
+F 3 "" H 5825 4300 50  0000 C CNN
+	1    5825 4300
+	0    -1   -1   0   
 $EndComp
-Text Notes 6675 5075 3    28   ~ 6
+Text Notes 5575 4525 0    20   ~ 0
 Pull-Down resistor recommended by the data sheet\n based on vbe=0.6 which I am not so sure of.
 $Comp
-L CP1 C12
-U 1 1 56EFA9E5
-P 7150 4600
-F 0 "C12" H 7390 4630 50  0000 C CNN
-F 1 "10nF" H 7400 4550 50  0000 C CNN
-F 2 "gatedrive:C_Disc" H 7188 4450 50  0001 C CNN
-F 3 "" H 7150 4600 50  0000 C CNN
-	1    7150 4600
+L C_Small C207
+U 1 1 57600D0E
+P 6550 4325
+F 0 "C207" H 6625 4325 50  0000 L CNN
+F 1 "10nF" H 6625 4250 50  0000 L CNN
+F 2 "gatedrive:C_Disc" H 6588 4175 50  0001 C CNN
+F 3 "" H 6550 4325 50  0000 C CNN
+	1    6550 4325
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D202
+U 1 1 57600D0F
+P 8600 4050
+F 0 "D202" H 8600 3927 50  0000 C CNN
+F 1 "~" H 8600 3850 50  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-201AD_Horizontal_RM15" H 8600 4050 50  0001 C CNN
+F 3 "" H 8600 4050 50  0000 C CNN
+F 4 "El-Amir Electronics" H 8600 4050 60  0001 C CNN "Supplier"
+	1    8600 4050
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D4
-U 1 1 56EFA9E6
-P 9200 4950
-F 0 "D4" H 9200 4826 50  0000 C CNN
-F 1 "~" H 9200 4750 50  0000 C CNN
-F 2 "Diodes_ThroughHole:Diode_DO-201AD_Horizontal_RM15" H 9200 4950 50  0001 C CNN
-F 3 "" H 9200 4950 50  0000 C CNN
-F 4 "El-Amir Electronics" H 9200 4950 60  0001 C CNN "Supplier"
-	1    9200 4950
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R11
-U 1 1 56EFA9E7
-P 9600 4950
-F 0 "R11" V 9600 4980 50  0000 C CNN
-F 1 "60" V 9500 4950 50  0000 C CNN
-F 2 "gatedrive:Resistor_multi" V 9530 4950 50  0001 C CNN
-F 3 "" H 9600 4950 50  0000 C CNN
-F 4 "Al amir" H 9600 4950 60  0001 C CNN "Supplier"
-	1    9600 4950
+L R_Small R205
+U 1 1 57600D10
+P 9025 4050
+F 0 "R205" V 9175 4050 50  0000 C CNN
+F 1 "60" V 9100 4050 50  0000 C CNN
+F 2 "gatedrive:Resistor_multi" V 8955 4050 50  0001 C CNN
+F 3 "" H 9025 4050 50  0000 C CNN
+F 4 "Al amir" H 9025 4050 60  0001 C CNN "Supplier"
+	1    9025 4050
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R12
-U 1 1 56EFA9E8
-P 9600 5250
-F 0 "R12" V 9600 5240 50  0000 C CNN
-F 1 "30ohm ,0.5W" V 9500 5250 50  0000 C CNN
-F 2 "gatedrive:Resistor_multi" V 9530 5250 50  0001 C CNN
-F 3 "" H 9600 5250 50  0000 C CNN
-F 4 "Supplier_name" H 9600 5250 60  0001 C CNN "Supplier"
-	1    9600 5250
+L R_Small R206
+U 1 1 57600D11
+P 9025 4300
+F 0 "R206" V 8910 4300 50  0000 C CNN
+F 1 "30ohm ,0.5W" V 8819 4300 50  0000 C CNN
+F 2 "gatedrive:Resistor_multi" V 8955 4300 50  0001 C CNN
+F 3 "" H 9025 4300 50  0000 C CNN
+F 4 "Supplier_name" H 9025 4300 60  0001 C CNN "Supplier"
+	1    9025 4300
 	0    -1   -1   0   
 $EndComp
 Text Notes 700  7550 0    60   ~ 0
 C is the collector of the IGBT.
-Text GLabel 7800 4100 2    60   Input ~ 0
+Text GLabel 7150 3300 2    60   Input ~ 0
 c7
-Text GLabel 6550 3650 1    60   Input ~ 0
+Text GLabel 5525 3475 1    60   Input ~ 0
 COM7
-Text GLabel 8850 2300 3    60   Input ~ 0
-COM7
-Text GLabel 7750 2000 1    60   Input ~ 0
-COM7
-Text GLabel 5500 2300 3    60   Input ~ 0
--5V7
-Text GLabel 5500 2000 1    60   Input ~ 0
-15V7
-Text GLabel 7750 2300 3    60   Input ~ 0
--5V7
-Text GLabel 8850 2000 1    60   Input ~ 0
-15V7
-Text GLabel 6300 4350 1    60   Input ~ 0
-COM7
-Text GLabel 7800 4400 2    60   Input ~ 0
--5V7
-Text GLabel 6500 5300 3    60   Input ~ 0
--5V7
-Text GLabel 6300 5300 3    60   Input ~ 0
--5V7
-Text Notes 7250 6500 0    60   ~ 0
-I'M USING GLOBAL LABELS INSTEAD OF LOCAL LABELS AS THEY LOOK NEATER, LOL.
-Text GLabel 6450 4800 2    60   Input ~ 0
-15V7
-Text GLabel 7550 4850 0    60   Input ~ 0
-15V7
-Text GLabel 7550 5150 0    60   Input ~ 0
--5V7
-Text GLabel 8350 5150 2    60   Input ~ 0
--5V7
-Text GLabel 10200 4950 2    60   Input ~ 0
+Text GLabel 5525 4650 3    60   Input ~ 0
+-5v7
+Text GLabel 9525 4050 2    60   Input ~ 0
 G7
 Text GLabel 1300 2650 3    60   Input ~ 0
 COM7
 Text GLabel 1750 3800 3    60   Input ~ 0
--5V7
+-5v7
 Text GLabel 1300 3800 3    60   Input ~ 0
 15V7
 Text Notes 3200 950  0    60   ~ 0
 the circuit  drives a single IGBT and works as low side and high side drive with undervoltage lockout and DESAT protection.\n
 Text Notes 700  2200 0    60   ~ 0
 power flags  are used to tell the Eeschema program \nwhich pins are driven by powe sources, \nthey have no physical existance.\n
-Text Notes 5300 2850 0    60   ~ 0
+Text Notes 4250 3275 0    20   ~ 0
 0.1 uF are bypass caps, the 330 pF is the fault filter cap.
-Text Notes 5950 3800 0    39   ~ 0
+Text Notes 5675 3325 0    20   ~ 0
 blanking capacitor
-Text Notes 3525 4650 1    30   ~ 0
-Fault pull-up resistor.
-Text Notes 6885 4225 0    30   ~ 0
+Text Notes 6150 3425 0    30   ~ 0
 DESAT resistor and diode.
-Text Notes 7250 4605 0    30   ~ 0
-a cap to ensure soft turn-off, recommended by datasheet of hcpl.
+Text Notes 6375 4625 0    20   ~ 0
+a cap to ensure soft turn-off,\n recommended by datasheet of hcpl.
 Wire Wire Line
-	6950 4950 7150 4950
+	5150 4150 6050 4150
 Wire Wire Line
-	7150 4950 7550 4950
+	5150 4250 5150 4350
 Wire Wire Line
-	5850 4950 6500 4950
+	5150 3950 5150 4050
 Wire Wire Line
-	6500 4950 6650 4950
+	6000 3850 5150 3850
 Wire Wire Line
-	5850 5050 5850 5100
+	6000 3300 6050 3300
 Wire Wire Line
-	5850 5100 5850 5150
+	6000 3300 6000 3850
+Connection ~ 7800 4050
 Wire Wire Line
-	5850 4750 5850 4800
+	7700 4050 8450 4050
 Wire Wire Line
-	5850 4800 5850 4850
-Connection ~ 6550 4100
+	8750 4050 8925 4050
 Wire Wire Line
-	6550 4650 5850 4650
+	9125 4050 9525 4050
 Wire Wire Line
-	6550 4100 6650 4100
+	9125 4300 9300 4300
 Wire Wire Line
-	6550 4050 6550 4100
+	9300 4300 9300 4050
+Connection ~ 9300 4050
 Wire Wire Line
-	6550 4100 6550 4650
-Connection ~ 8450 4950
+	7700 4150 7800 4150
 Wire Wire Line
-	7150 4750 7150 4950
-Connection ~ 7150 4950
+	7800 4150 7800 4050
 Wire Wire Line
-	3625 4650 4000 4650
+	5150 3650 5725 3650
+Connection ~ 5150 4000
 Wire Wire Line
-	4000 4650 4850 4650
+	8250 4300 8925 4300
 Wire Wire Line
-	8350 4950 8450 4950
+	8250 4300 8250 4050
+Connection ~ 8250 4050
 Wire Wire Line
-	8450 4950 8900 4950
+	6800 3300 7150 3300
 Wire Wire Line
-	8900 4950 9050 4950
-Wire Wire Line
-	9350 4950 9450 4950
-Wire Wire Line
-	9750 4950 9950 4950
-Wire Wire Line
-	9950 4950 10200 4950
-Wire Wire Line
-	9750 5250 9950 5250
-Wire Wire Line
-	9950 5250 9950 4950
-Connection ~ 9950 4950
-Wire Wire Line
-	8350 5050 8450 5050
-Wire Wire Line
-	8450 5050 8450 4950
-Connection ~ 6500 4950
-Wire Wire Line
-	4400 4350 4400 4550
-Wire Wire Line
-	4400 4550 4850 4550
-Wire Wire Line
-	4000 4350 4000 4650
-Connection ~ 4000 4650
-Wire Wire Line
-	4000 5300 4000 4750
-Wire Wire Line
-	4000 4750 4850 4750
-Wire Wire Line
-	4850 5150 4750 5150
-Wire Wire Line
-	4750 5150 4750 5300
-Wire Wire Line
-	4850 4850 4400 4850
-Wire Wire Line
-	4400 4850 4400 5300
-Wire Wire Line
-	5850 4450 6300 4450
-Wire Wire Line
-	6300 4450 6300 4350
-Wire Wire Line
-	7150 4450 7150 4450
-Wire Wire Line
-	6300 5300 6300 5100
-Wire Wire Line
-	6300 5100 5850 5100
-Connection ~ 5850 5100
-Wire Wire Line
-	5850 4800 6450 4800
-Connection ~ 5850 4800
-Wire Wire Line
-	8900 5250 9450 5250
-Wire Wire Line
-	8900 5250 8900 4950
-Connection ~ 8900 4950
-Wire Wire Line
-	7150 4450 7150 4400
-Wire Wire Line
-	7150 4400 7800 4400
-Wire Wire Line
-	7300 4100 7800 4100
-Wire Wire Line
-	6550 3750 6550 3650
-Wire Wire Line
-	6950 4100 7000 4100
-$Comp
-L PWR_FLAG #FLG07
-U 1 1 56EFA9EA
-P 1475 3050
-F 0 "#FLG07" H 1475 3145 50  0001 C CNN
-F 1 "PWR_FLAG" V 1625 3050 50  0000 C CNN
-F 2 "" H 1475 3050 50  0000 C CNN
-F 3 "" H 1475 3050 50  0000 C CNN
-	1    1475 3050
-	0    1    1    0   
-$EndComp
-Wire Notes Line
-	5200 2700 8100 2700
-Wire Notes Line
-	8100 2700 8100 2900
-Wire Notes Line
-	8100 2900 5200 2900
-Wire Notes Line
-	5200 2900 5200 2700
-Wire Wire Line
-	6500 5000 6500 4950
-Text GLabel 8350 4850 2    60   Input ~ 0
+	6250 3300 6500 3300
+Text GLabel 6550 3875 1    60   Input ~ 0
 15V7
-Text GLabel 7125 5100 3    60   Input ~ 0
-15V7
-Wire Wire Line
-	7125 5050 7550 5050
 Text HLabel 900  3800 3    60   Input ~ 0
 T7
-Text HLabel 4850 4450 0    60   Input ~ 0
+Text HLabel 4150 3650 0    60   Input ~ 0
 T7
-Text GLabel 4450 2300 3    60   Input ~ 0
+Text GLabel 3050 4250 0    60   Input ~ 0
 ~FAULT
-Text GLabel 4450 2000 1    60   Input ~ 0
-MICSUPP
-Text GLabel 6600 2000 1    60   Input ~ 0
-~FAULT
-Text GLabel 6600 2300 3    60   Input ~ 0
-GND1
-Text GLabel 3625 4350 1    60   Input ~ 0
-~FAULT
-Text GLabel 4000 4350 1    60   Input ~ 0
-MICSUPP
-Text GLabel 4400 4350 1    60   Input ~ 0
-GND1
-Text GLabel 4850 4950 0    60   Input ~ 0
-~FAULT
-Text GLabel 4750 5300 3    60   Input ~ 0
-GND1
-Text GLabel 4400 5300 3    60   Input ~ 0
+Text GLabel 3975 4150 0    60   Input ~ 0
 ~RST
-Text GLabel 4000 5300 3    60   Input ~ 0
-GND1
-Text GLabel 1750 2650 3    60   Input ~ 0
-GND1
-Text GLabel 900  2650 3    60   Input ~ 0
-MICSUPP
-Text GLabel 1475 3050 0    60   Input ~ 0
-~RST
-Wire Wire Line
-	7125 5100 7125 5050
 $Comp
-L CONN_01X03 P10
-U 1 1 56F6A1EB
-P 950 4800
-F 0 "P10" H 825 4425 50  0000 C CNN
-F 1 "CONN_01X03" H 825 4525 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x03" H 950 4800 50  0001 C CNN
-F 3 "" H 950 4800 50  0000 C CNN
-	1    950  4800
+L CONN_01X03 P201
+U 1 1 57600D13
+P 1350 4775
+F 0 "P201" H 1269 4450 50  0000 C CNN
+F 1 "CONN_01X03" H 1269 4541 50  0000 C CNN
+F 2 "gatedrive:conn" H 1350 4775 50  0001 C CNN
+F 3 "" H 1350 4775 50  0000 C CNN
+	1    1350 4775
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_01X03 P11
-U 1 1 56F6A2C3
-P 1050 5400
-F 0 "P11" H 925 5025 50  0000 C CNN
-F 1 "CONN_01X03" H 925 5125 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x03" H 1050 5400 50  0001 C CNN
-F 3 "" H 1050 5400 50  0000 C CNN
-	1    1050 5400
+L CONN_01X03 P202
+U 1 1 57600D14
+P 1350 5325
+F 0 "P202" H 1269 5000 50  0000 C CNN
+F 1 "CONN_01X03" H 1269 5091 50  0000 C CNN
+F 2 "gatedrive:conn" H 1350 5325 50  0001 C CNN
+F 3 "" H 1350 5325 50  0000 C CNN
+	1    1350 5325
 	-1   0    0    1   
 $EndComp
-Text GLabel 1150 4700 2    60   Input ~ 0
--5V7
-Text GLabel 1150 4800 2    60   Input ~ 0
+Text GLabel 1550 4875 2    60   Input ~ 0
+COM7
+Text GLabel 1550 4775 2    60   Input ~ 0
 15V7
-Text GLabel 1150 4900 2    60   Input ~ 0
-COM7
-Text GLabel 1250 5500 2    60   Input ~ 0
+Text GLabel 1550 5425 2    60   Input ~ 0
 G7
-Text GLabel 1250 5400 2    60   Input ~ 0
+Text GLabel 1550 5325 2    60   Input ~ 0
 c7
-Text GLabel 1250 5300 2    60   Input ~ 0
+Text GLabel 1550 5225 2    60   Input ~ 0
 COM7
+Text GLabel 1550 4675 2    60   Input ~ 0
+-5v7
+Wire Wire Line
+	3975 4150 4150 4150
+$Comp
+L GND #PWR013
+U 1 1 57600D15
+P 3650 4775
+F 0 "#PWR013" H 3650 4525 50  0001 C CNN
+F 1 "GND" H 3655 4602 50  0000 C CNN
+F 2 "" H 3650 4775 50  0000 C CNN
+F 3 "" H 3650 4775 50  0000 C CNN
+	1    3650 4775
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3750 4050 3750
+Wire Wire Line
+	4050 3750 4050 4050
+Wire Wire Line
+	4050 4050 4150 4050
+$Comp
+L +5V #PWR014
+U 1 1 57600D16
+P 3650 3650
+F 0 "#PWR014" H 3650 3500 50  0001 C CNN
+F 1 "+5V" H 3665 3823 50  0000 C CNN
+F 2 "" H 3650 3650 50  0000 C CNN
+F 3 "" H 3650 3650 50  0000 C CNN
+	1    3650 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3650 3650 3950
+Wire Wire Line
+	3250 3850 4150 3850
+Connection ~ 3650 3850
+Wire Wire Line
+	3050 4250 4150 4250
+Wire Wire Line
+	3650 4150 3650 4350
+Connection ~ 3650 4250
+Wire Wire Line
+	4050 3950 4150 3950
+Connection ~ 4050 3950
+Wire Wire Line
+	3650 4550 3650 4775
+Wire Wire Line
+	3250 4650 4050 4650
+Wire Wire Line
+	6550 4225 6550 4150
+Connection ~ 6550 4150
+Wire Wire Line
+	3250 3850 3250 3925
+Wire Wire Line
+	5925 4300 6000 4300
+Wire Wire Line
+	6000 4300 6000 4150
+Connection ~ 6000 4150
+Wire Wire Line
+	5150 4300 5725 4300
+Connection ~ 5150 4300
+Wire Wire Line
+	5525 4200 5525 4650
+Connection ~ 5525 4300
+Connection ~ 5250 3650
+Wire Wire Line
+	5250 3700 5250 3650
+Wire Wire Line
+	5250 3900 5250 4300
+Connection ~ 5250 4300
+Connection ~ 5525 3650
+$Comp
+L C_Small C204
+U 1 1 57600D17
+P 5525 3900
+F 0 "C204" H 5600 3900 39  0000 L CNN
+F 1 "0.1uF" H 5600 3850 39  0000 L CNN
+F 2 "gatedrive:C_Disc" H 5563 3750 50  0001 C CNN
+F 3 "" H 5525 3900 50  0000 C CNN
+	1    5525 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 4000 6800 4000
+Connection ~ 5525 4000
+$Comp
+L IXDD614PI IC202
+U 1 1 57600D18
+P 7300 4050
+AR Path="/57600D18" Ref="IC202"  Part="1" 
+AR Path="/56EF0567/57600D18" Ref="IC202"  Part="1" 
+F 0 "IC202" H 7300 4412 60  0000 C CNN
+F 1 "IXDD614PI" H 7300 4306 60  0000 C CNN
+F 2 "gatedrive:DIP-8_W7.62mm_LongPads" H 7300 4150 60  0001 C CNN
+F 3 "" H 7300 4150 60  0000 C CNN
+F 4 "CHINA[already bought]" H 7300 4050 60  0001 C CNN "Supplier"
+	1    7300 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 4525 6900 4250
+Wire Wire Line
+	6800 4050 6900 4050
+Wire Wire Line
+	6800 3950 6800 4050
+Wire Wire Line
+	6800 3950 6900 3950
+Wire Wire Line
+	6550 4000 6550 3875
+Connection ~ 6800 4000
+Wire Wire Line
+	6250 4150 6900 4150
+Connection ~ 6550 4000
+Wire Wire Line
+	5525 4525 6900 4525
+Wire Wire Line
+	6550 4525 6550 4425
+Connection ~ 5525 4525
+Connection ~ 6550 4525
+Wire Wire Line
+	5925 3650 6000 3650
+Connection ~ 6000 3650
+Wire Wire Line
+	5525 3475 5525 3800
+Wire Wire Line
+	4050 4650 4050 3950
+Text Label 6625 4000 0    60   ~ 0
+15v
+Text Label 6675 4525 0    60   ~ 0
+-5v
+Text Label 7700 3950 0    60   ~ 0
+15v
+Text Label 7700 4250 0    60   ~ 0
+-5v
+Wire Wire Line
+	3250 4125 3250 4650
+Connection ~ 3650 4650
 $EndSCHEMATC

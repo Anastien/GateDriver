@@ -1,0 +1,14 @@
+** Drc report for C:/Users/anas/GateDriver/gatedrive.kicad_pcb **
+** Created on  **
+
+** Found 0 DRC errors **
+
+** Found 2 unconnected pads **
+ErrType(2): Unconnected pads
+    @ (219.075 mm,52.705 mm): Pad 2 on COM, 15V, Internal, Non-copper of R811 net ~OVERTEMP
+    @ (220.980 mm,59.690 mm): Pad 1 on COM, 15V, Internal, Non-copper of U802
+ErrType(2): Unconnected pads
+    @ (217.170 mm,64.770 mm): Pad 2 on COM, 15V, Internal, Non-copper of R809 net ~OVERTEMP
+    @ (220.980 mm,59.690 mm): Pad 1 on COM, 15V, Internal, Non-copper of U802
+
+** End of Report **

@@ -1,0 +1,2395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/anas/GateDriver/gatedrive.sch</source>
+    <date>6/24/2016 4:05:50 PM</date>
+    <tool>Eeschema no-bzr-kicad_new3d-viewer</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>IGBT GATE DRIVER SCHEMATIC.</title>
+        <company>VSD GRADUATION PROJECT.</company>
+        <rev>3</rev>
+        <date>2016-04-13</date>
+        <source>gatedrive.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/GD7/" tstamps="/56EF0567/">
+      <title_block>
+        <title>IGBT GATE DRIVE SCHEMATIC.</title>
+        <company>VSD GRADUATION PROJECT.</company>
+        <rev>1</rev>
+        <date>2016-03-02</date>
+        <source>GD7.sch</source>
+        <comment number="1" value="THIS CIRCUIT IS A PROTOTYPE VERSION."/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/GD6/" tstamps="/56EF0565/">
+      <title_block>
+        <title>IGBT GATE DRIVE SCHEMATIC.</title>
+        <company>VSD GRADUATION PROJECT.</company>
+        <rev>1</rev>
+        <date>2016-03-02</date>
+        <source>GD6.sch</source>
+        <comment number="1" value="THIS CIRCUIT IS A PROTOTYPE VERSION."/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/GD5/" tstamps="/56EF0563/">
+      <title_block>
+        <title>IGBT GATE DRIVE SCHEMATIC.</title>
+        <company>VSD GRADUATION PROJECT.</company>
+        <rev>1</rev>
+        <date>2016-03-02</date>
+        <source>GD5.sch</source>
+        <comment number="1" value="THIS CIRCUIT IS A PROTOTYPE VERSION."/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/GD4/" tstamps="/56EF0560/">
+      <title_block>
+        <title>IGBT GATE DRIVE SCHEMATIC.</title>
+        <company>VSD GRADUATION PROJECT.</company>
+        <rev>1</rev>
+        <date>2016-03-02</date>
+        <source>GD4.sch</source>
+        <comment number="1" value="THIS CIRCUIT IS A PROTOTYPE VERSION."/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/GD3/" tstamps="/56EF055E/">
+      <title_block>
+        <title>IGBT GATE DRIVE SCHEMATIC.</title>
+        <company>VSD GRADUATION PROJECT.</company>
+        <rev>1</rev>
+        <date>2016-03-02</date>
+        <source>GD3.sch</source>
+        <comment number="1" value="THIS CIRCUIT IS A PROTOTYPE VERSION."/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/GD2/" tstamps="/56EF055C/">
+      <title_block>
+        <title>IGBT GATE DRIVE SCHEMATIC.</title>
+        <company>VSD GRADUATION PROJECT.</company>
+        <rev>1</rev>
+        <date>2016-03-02</date>
+        <source>GD2.sch</source>
+        <comment number="1" value="THIS CIRCUIT IS A PROTOTYPE VERSION."/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/protection/" tstamps="/56FD530B/">
+      <title_block>
+        <title>thermal and dc bus protection</title>
+        <company>VFD GRADATIN PRJECT</company>
+        <rev>R 1</rev>
+        <date>2016-06-19</date>
+        <source>Protection.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/GD1/" tstamps="/56EF0569/">
+      <title_block>
+        <title>IGBT GATE DRIVE SCHEMATIC.</title>
+        <company>VSD GRADUATION PROJECT.</company>
+        <rev>1</rev>
+        <date>2016-03-02</date>
+        <source>GD1.sch</source>
+        <comment number="1" value="THIS CIRCUIT IS A PROTOTYPE VERSION."/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P101">
+      <value>Mic General Connector</value>
+      <footprint>Socket_Strips:Socket_Strip_Angled_1x12</footprint>
+      <libsource lib="conn" part="CONN_01X12"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EF0F9E</tstamp>
+    </comp>
+    <comp ref="D103">
+      <value>LED</value>
+      <footprint>LEDs:LED-3MM</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F4E3CD</tstamp>
+    </comp>
+    <comp ref="D101">
+      <value>LED</value>
+      <footprint>LEDs:LED-3MM</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F4E65F</tstamp>
+    </comp>
+    <comp ref="D102">
+      <value>LED</value>
+      <footprint>LEDs:LED-3MM</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F4E764</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F4EED0</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F4F5F2</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F4F84D</tstamp>
+    </comp>
+    <comp ref="IC201">
+      <value>HCPL-316J</value>
+      <footprint>Housings_SOIC:SOIC-16_7.5x10.3mm_Pitch1.27mm</footprint>
+      <fields>
+        <field name="Supplier">CHINA [ already bought]</field>
+      </fields>
+      <libsource lib="opto" part="HCPL-316J"/>
+      <sheetpath names="/GD7/" tstamps="/56EF0567/"/>
+      <tstamp>57600CFD</tstamp>
+    </comp>
+    <comp ref="R204">
+      <value>100</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD7/" tstamps="/56EF0567/"/>
+      <tstamp>57600CFE</tstamp>
+    </comp>
+    <comp ref="R203">
+      <value>100</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD7/" tstamps="/56EF0567/"/>
+      <tstamp>57600CFF</tstamp>
+    </comp>
+    <comp ref="D201">
+      <value>RGPO2-20</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10</footprint>
+      <fields>
+        <field name="Supplier">El-Amir</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/GD7/" tstamps="/56EF0567/"/>
+      <tstamp>57600D00</tstamp>
+    </comp>
+    <comp ref="R201">
+      <value>10K</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Supplier">EL AMIR</field>
+      </fields>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD7/" tstamps="/56EF0567/"/>
+      <tstamp>57600D01</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>0.1uF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <fields>
+        <field name="Supplier">EL AMIR</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD7/" tstamps="/56EF0567/"/>
+      <tstamp>57600D02</tstamp>
+    </comp>
+    <comp ref="C206">
+      <value>100pF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD7/" tstamps="/56EF0567/"/>
+      <tstamp>57600D03</tstamp>
+    </comp>
+    <comp ref="C203">
+      <value>0.1uF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD7/" tstamps="/56EF0567/"/>
+      <tstamp>57600D04</tstamp>
+    </comp>
+    <comp ref="C205">
+      <value>0.1uF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD7/" tstamps="/56EF0567/"/>
+      <tstamp>57600D05</tstamp>
+    </comp>
+    <comp ref="C202">
+      <value>330pF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD7/" tstamps="/56EF0567/"/>
+      <tstamp>57600D06</tstamp>
+    </comp>
+    <comp ref="R202">
+      <value>25K</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD7/" tstamps="/56EF0567/"/>
+      <tstamp>57600D0D</tstamp>
+    </comp>
+    <comp ref="C207">
+      <value>10nF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD7/" tstamps="/56EF0567/"/>
+      <tstamp>57600D0E</tstamp>
+    </comp>
+    <comp ref="D202">
+      <value>~</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-201AD_Horizontal_RM15</footprint>
+      <fields>
+        <field name="Supplier">El-Amir Electronics</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/GD7/" tstamps="/56EF0567/"/>
+      <tstamp>57600D0F</tstamp>
+    </comp>
+    <comp ref="R205">
+      <value>60</value>
+      <footprint>gatedrive:Resistor_multi</footprint>
+      <fields>
+        <field name="Supplier">Al amir</field>
+      </fields>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD7/" tstamps="/56EF0567/"/>
+      <tstamp>57600D10</tstamp>
+    </comp>
+    <comp ref="R206">
+      <value>30ohm ,0.5W</value>
+      <footprint>gatedrive:Resistor_multi</footprint>
+      <fields>
+        <field name="Supplier">Supplier_name</field>
+      </fields>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD7/" tstamps="/56EF0567/"/>
+      <tstamp>57600D11</tstamp>
+    </comp>
+    <comp ref="P201">
+      <value>CONN_01X03</value>
+      <footprint>gatedrive:conn</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/GD7/" tstamps="/56EF0567/"/>
+      <tstamp>57600D13</tstamp>
+    </comp>
+    <comp ref="P202">
+      <value>CONN_01X03</value>
+      <footprint>gatedrive:conn</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/GD7/" tstamps="/56EF0567/"/>
+      <tstamp>57600D14</tstamp>
+    </comp>
+    <comp ref="C204">
+      <value>0.1uF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD7/" tstamps="/56EF0567/"/>
+      <tstamp>57600D17</tstamp>
+    </comp>
+    <comp ref="IC202">
+      <value>IXDD614PI</value>
+      <footprint>gatedrive:DIP-8_W7.62mm_LongPads</footprint>
+      <fields>
+        <field name="Supplier">CHINA[already bought]</field>
+      </fields>
+      <libsource lib="transistors" part="IXDD614PI"/>
+      <sheetpath names="/GD7/" tstamps="/56EF0567/"/>
+      <tstamp>57600D18</tstamp>
+    </comp>
+    <comp ref="IC301">
+      <value>HCPL-316J</value>
+      <footprint>Housings_SOIC:SOIC-16_7.5x10.3mm_Pitch1.27mm</footprint>
+      <fields>
+        <field name="Supplier">CHINA [ already bought]</field>
+      </fields>
+      <libsource lib="opto" part="HCPL-316J"/>
+      <sheetpath names="/GD6/" tstamps="/56EF0565/"/>
+      <tstamp>575FFF82</tstamp>
+    </comp>
+    <comp ref="R304">
+      <value>100</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD6/" tstamps="/56EF0565/"/>
+      <tstamp>575FFF83</tstamp>
+    </comp>
+    <comp ref="R303">
+      <value>100</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD6/" tstamps="/56EF0565/"/>
+      <tstamp>575FFF84</tstamp>
+    </comp>
+    <comp ref="D301">
+      <value>RGPO2-20</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10</footprint>
+      <fields>
+        <field name="Supplier">El-Amir</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/GD6/" tstamps="/56EF0565/"/>
+      <tstamp>575FFF85</tstamp>
+    </comp>
+    <comp ref="R301">
+      <value>10K</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Supplier">EL AMIR</field>
+      </fields>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD6/" tstamps="/56EF0565/"/>
+      <tstamp>575FFF86</tstamp>
+    </comp>
+    <comp ref="C301">
+      <value>0.1uF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <fields>
+        <field name="Supplier">EL AMIR</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD6/" tstamps="/56EF0565/"/>
+      <tstamp>575FFF87</tstamp>
+    </comp>
+    <comp ref="C306">
+      <value>100pF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD6/" tstamps="/56EF0565/"/>
+      <tstamp>575FFF88</tstamp>
+    </comp>
+    <comp ref="C303">
+      <value>0.1uF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD6/" tstamps="/56EF0565/"/>
+      <tstamp>575FFF89</tstamp>
+    </comp>
+    <comp ref="C305">
+      <value>0.1uF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD6/" tstamps="/56EF0565/"/>
+      <tstamp>575FFF8A</tstamp>
+    </comp>
+    <comp ref="C302">
+      <value>330pF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD6/" tstamps="/56EF0565/"/>
+      <tstamp>575FFF8B</tstamp>
+    </comp>
+    <comp ref="R302">
+      <value>25K</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD6/" tstamps="/56EF0565/"/>
+      <tstamp>575FFF92</tstamp>
+    </comp>
+    <comp ref="C307">
+      <value>10nF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD6/" tstamps="/56EF0565/"/>
+      <tstamp>575FFF93</tstamp>
+    </comp>
+    <comp ref="D302">
+      <value>~</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-201AD_Horizontal_RM15</footprint>
+      <fields>
+        <field name="Supplier">El-Amir Electronics</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/GD6/" tstamps="/56EF0565/"/>
+      <tstamp>575FFF94</tstamp>
+    </comp>
+    <comp ref="R305">
+      <value>60</value>
+      <footprint>gatedrive:Resistor_multi</footprint>
+      <fields>
+        <field name="Supplier">Al amir</field>
+      </fields>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD6/" tstamps="/56EF0565/"/>
+      <tstamp>575FFF95</tstamp>
+    </comp>
+    <comp ref="R306">
+      <value>30ohm ,0.5W</value>
+      <footprint>gatedrive:Resistor_multi</footprint>
+      <fields>
+        <field name="Supplier">Supplier_name</field>
+      </fields>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD6/" tstamps="/56EF0565/"/>
+      <tstamp>575FFF96</tstamp>
+    </comp>
+    <comp ref="P301">
+      <value>CONN_01X03</value>
+      <footprint>gatedrive:conn</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/GD6/" tstamps="/56EF0565/"/>
+      <tstamp>575FFF98</tstamp>
+    </comp>
+    <comp ref="P302">
+      <value>CONN_01X03</value>
+      <footprint>gatedrive:conn</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/GD6/" tstamps="/56EF0565/"/>
+      <tstamp>575FFF99</tstamp>
+    </comp>
+    <comp ref="C304">
+      <value>0.1uF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD6/" tstamps="/56EF0565/"/>
+      <tstamp>575FFF9C</tstamp>
+    </comp>
+    <comp ref="IC302">
+      <value>IXDD614PI</value>
+      <footprint>gatedrive:DIP-8_W7.62mm_LongPads</footprint>
+      <fields>
+        <field name="Supplier">CHINA[already bought]</field>
+      </fields>
+      <libsource lib="transistors" part="IXDD614PI"/>
+      <sheetpath names="/GD6/" tstamps="/56EF0565/"/>
+      <tstamp>575FFF9D</tstamp>
+    </comp>
+    <comp ref="IC401">
+      <value>HCPL-316J</value>
+      <footprint>Housings_SOIC:SOIC-16_7.5x10.3mm_Pitch1.27mm</footprint>
+      <fields>
+        <field name="Supplier">CHINA [ already bought]</field>
+      </fields>
+      <libsource lib="opto" part="HCPL-316J"/>
+      <sheetpath names="/GD5/" tstamps="/56EF0563/"/>
+      <tstamp>575FFB55</tstamp>
+    </comp>
+    <comp ref="R404">
+      <value>100</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD5/" tstamps="/56EF0563/"/>
+      <tstamp>575FFB56</tstamp>
+    </comp>
+    <comp ref="R403">
+      <value>100</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD5/" tstamps="/56EF0563/"/>
+      <tstamp>575FFB57</tstamp>
+    </comp>
+    <comp ref="D401">
+      <value>RGPO2-20</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10</footprint>
+      <fields>
+        <field name="Supplier">El-Amir</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/GD5/" tstamps="/56EF0563/"/>
+      <tstamp>575FFB58</tstamp>
+    </comp>
+    <comp ref="R401">
+      <value>10K</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Supplier">EL AMIR</field>
+      </fields>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD5/" tstamps="/56EF0563/"/>
+      <tstamp>575FFB59</tstamp>
+    </comp>
+    <comp ref="C401">
+      <value>0.1uF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <fields>
+        <field name="Supplier">EL AMIR</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD5/" tstamps="/56EF0563/"/>
+      <tstamp>575FFB5A</tstamp>
+    </comp>
+    <comp ref="C406">
+      <value>100pF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD5/" tstamps="/56EF0563/"/>
+      <tstamp>575FFB5B</tstamp>
+    </comp>
+    <comp ref="C403">
+      <value>0.1uF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD5/" tstamps="/56EF0563/"/>
+      <tstamp>575FFB5C</tstamp>
+    </comp>
+    <comp ref="C405">
+      <value>0.1uF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD5/" tstamps="/56EF0563/"/>
+      <tstamp>575FFB5D</tstamp>
+    </comp>
+    <comp ref="C402">
+      <value>330pF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD5/" tstamps="/56EF0563/"/>
+      <tstamp>575FFB5E</tstamp>
+    </comp>
+    <comp ref="R402">
+      <value>25K</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD5/" tstamps="/56EF0563/"/>
+      <tstamp>575FFB65</tstamp>
+    </comp>
+    <comp ref="C407">
+      <value>10nF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD5/" tstamps="/56EF0563/"/>
+      <tstamp>575FFB66</tstamp>
+    </comp>
+    <comp ref="D402">
+      <value>~</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-201AD_Horizontal_RM15</footprint>
+      <fields>
+        <field name="Supplier">El-Amir Electronics</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/GD5/" tstamps="/56EF0563/"/>
+      <tstamp>575FFB67</tstamp>
+    </comp>
+    <comp ref="R405">
+      <value>60</value>
+      <footprint>gatedrive:Resistor_multi</footprint>
+      <fields>
+        <field name="Supplier">Al amir</field>
+      </fields>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD5/" tstamps="/56EF0563/"/>
+      <tstamp>575FFB68</tstamp>
+    </comp>
+    <comp ref="R406">
+      <value>30ohm ,0.5W</value>
+      <footprint>gatedrive:Resistor_multi</footprint>
+      <fields>
+        <field name="Supplier">Supplier_name</field>
+      </fields>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD5/" tstamps="/56EF0563/"/>
+      <tstamp>575FFB69</tstamp>
+    </comp>
+    <comp ref="P401">
+      <value>CONN_01X03</value>
+      <footprint>gatedrive:conn</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/GD5/" tstamps="/56EF0563/"/>
+      <tstamp>575FFB6B</tstamp>
+    </comp>
+    <comp ref="P402">
+      <value>CONN_01X03</value>
+      <footprint>gatedrive:conn</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/GD5/" tstamps="/56EF0563/"/>
+      <tstamp>575FFB6C</tstamp>
+    </comp>
+    <comp ref="C404">
+      <value>0.1uF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD5/" tstamps="/56EF0563/"/>
+      <tstamp>575FFB6F</tstamp>
+    </comp>
+    <comp ref="IC402">
+      <value>IXDD614PI</value>
+      <footprint>gatedrive:DIP-8_W7.62mm_LongPads</footprint>
+      <fields>
+        <field name="Supplier">CHINA[already bought]</field>
+      </fields>
+      <libsource lib="transistors" part="IXDD614PI"/>
+      <sheetpath names="/GD5/" tstamps="/56EF0563/"/>
+      <tstamp>575FFB70</tstamp>
+    </comp>
+    <comp ref="IC501">
+      <value>HCPL-316J</value>
+      <footprint>Housings_SOIC:SOIC-16_7.5x10.3mm_Pitch1.27mm</footprint>
+      <fields>
+        <field name="Supplier">CHINA [ already bought]</field>
+      </fields>
+      <libsource lib="opto" part="HCPL-316J"/>
+      <sheetpath names="/GD4/" tstamps="/56EF0560/"/>
+      <tstamp>575FF827</tstamp>
+    </comp>
+    <comp ref="R504">
+      <value>100</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD4/" tstamps="/56EF0560/"/>
+      <tstamp>575FF828</tstamp>
+    </comp>
+    <comp ref="R503">
+      <value>100</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD4/" tstamps="/56EF0560/"/>
+      <tstamp>575FF829</tstamp>
+    </comp>
+    <comp ref="D501">
+      <value>RGPO2-20</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10</footprint>
+      <fields>
+        <field name="Supplier">El-Amir</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/GD4/" tstamps="/56EF0560/"/>
+      <tstamp>575FF82A</tstamp>
+    </comp>
+    <comp ref="R501">
+      <value>10K</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Supplier">EL AMIR</field>
+      </fields>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD4/" tstamps="/56EF0560/"/>
+      <tstamp>575FF82B</tstamp>
+    </comp>
+    <comp ref="C501">
+      <value>0.1uF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <fields>
+        <field name="Supplier">EL AMIR</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD4/" tstamps="/56EF0560/"/>
+      <tstamp>575FF82C</tstamp>
+    </comp>
+    <comp ref="C506">
+      <value>100pF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD4/" tstamps="/56EF0560/"/>
+      <tstamp>575FF82D</tstamp>
+    </comp>
+    <comp ref="C503">
+      <value>0.1uF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD4/" tstamps="/56EF0560/"/>
+      <tstamp>575FF82E</tstamp>
+    </comp>
+    <comp ref="C505">
+      <value>0.1uF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD4/" tstamps="/56EF0560/"/>
+      <tstamp>575FF82F</tstamp>
+    </comp>
+    <comp ref="C502">
+      <value>330pF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD4/" tstamps="/56EF0560/"/>
+      <tstamp>575FF830</tstamp>
+    </comp>
+    <comp ref="R502">
+      <value>25K</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD4/" tstamps="/56EF0560/"/>
+      <tstamp>575FF837</tstamp>
+    </comp>
+    <comp ref="C507">
+      <value>10nF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD4/" tstamps="/56EF0560/"/>
+      <tstamp>575FF838</tstamp>
+    </comp>
+    <comp ref="D502">
+      <value>~</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-201AD_Horizontal_RM15</footprint>
+      <fields>
+        <field name="Supplier">El-Amir Electronics</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/GD4/" tstamps="/56EF0560/"/>
+      <tstamp>575FF839</tstamp>
+    </comp>
+    <comp ref="R505">
+      <value>60</value>
+      <footprint>gatedrive:Resistor_multi</footprint>
+      <fields>
+        <field name="Supplier">Al amir</field>
+      </fields>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD4/" tstamps="/56EF0560/"/>
+      <tstamp>575FF83A</tstamp>
+    </comp>
+    <comp ref="R506">
+      <value>30ohm ,0.5W</value>
+      <footprint>gatedrive:Resistor_multi</footprint>
+      <fields>
+        <field name="Supplier">Supplier_name</field>
+      </fields>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD4/" tstamps="/56EF0560/"/>
+      <tstamp>575FF83B</tstamp>
+    </comp>
+    <comp ref="P501">
+      <value>CONN_01X03</value>
+      <footprint>gatedrive:conn</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/GD4/" tstamps="/56EF0560/"/>
+      <tstamp>575FF83D</tstamp>
+    </comp>
+    <comp ref="P502">
+      <value>CONN_01X03</value>
+      <footprint>gatedrive:conn</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/GD4/" tstamps="/56EF0560/"/>
+      <tstamp>575FF83E</tstamp>
+    </comp>
+    <comp ref="C504">
+      <value>0.1uF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD4/" tstamps="/56EF0560/"/>
+      <tstamp>575FF841</tstamp>
+    </comp>
+    <comp ref="IC502">
+      <value>IXDD614PI</value>
+      <footprint>gatedrive:DIP-8_W7.62mm_LongPads</footprint>
+      <fields>
+        <field name="Supplier">CHINA[already bought]</field>
+      </fields>
+      <libsource lib="transistors" part="IXDD614PI"/>
+      <sheetpath names="/GD4/" tstamps="/56EF0560/"/>
+      <tstamp>575FF842</tstamp>
+    </comp>
+    <comp ref="IC601">
+      <value>HCPL-316J</value>
+      <footprint>Housings_SOIC:SOIC-16_7.5x10.3mm_Pitch1.27mm</footprint>
+      <fields>
+        <field name="Supplier">CHINA [ already bought]</field>
+      </fields>
+      <libsource lib="opto" part="HCPL-316J"/>
+      <sheetpath names="/GD3/" tstamps="/56EF055E/"/>
+      <tstamp>575FF0F2</tstamp>
+    </comp>
+    <comp ref="R604">
+      <value>100</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD3/" tstamps="/56EF055E/"/>
+      <tstamp>575FF0F3</tstamp>
+    </comp>
+    <comp ref="R603">
+      <value>100</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD3/" tstamps="/56EF055E/"/>
+      <tstamp>575FF0F4</tstamp>
+    </comp>
+    <comp ref="D601">
+      <value>RGPO2-20</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10</footprint>
+      <fields>
+        <field name="Supplier">El-Amir</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/GD3/" tstamps="/56EF055E/"/>
+      <tstamp>575FF0F5</tstamp>
+    </comp>
+    <comp ref="R601">
+      <value>10K</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Supplier">EL AMIR</field>
+      </fields>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD3/" tstamps="/56EF055E/"/>
+      <tstamp>575FF0F6</tstamp>
+    </comp>
+    <comp ref="C601">
+      <value>0.1uF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <fields>
+        <field name="Supplier">EL AMIR</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD3/" tstamps="/56EF055E/"/>
+      <tstamp>575FF0F7</tstamp>
+    </comp>
+    <comp ref="C606">
+      <value>100pF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD3/" tstamps="/56EF055E/"/>
+      <tstamp>575FF0F8</tstamp>
+    </comp>
+    <comp ref="C603">
+      <value>0.1uF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD3/" tstamps="/56EF055E/"/>
+      <tstamp>575FF0F9</tstamp>
+    </comp>
+    <comp ref="C605">
+      <value>0.1uF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD3/" tstamps="/56EF055E/"/>
+      <tstamp>575FF0FA</tstamp>
+    </comp>
+    <comp ref="C602">
+      <value>330pF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD3/" tstamps="/56EF055E/"/>
+      <tstamp>575FF0FB</tstamp>
+    </comp>
+    <comp ref="R602">
+      <value>25K</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD3/" tstamps="/56EF055E/"/>
+      <tstamp>575FF102</tstamp>
+    </comp>
+    <comp ref="C607">
+      <value>10nF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD3/" tstamps="/56EF055E/"/>
+      <tstamp>575FF103</tstamp>
+    </comp>
+    <comp ref="D602">
+      <value>~</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-201AD_Horizontal_RM15</footprint>
+      <fields>
+        <field name="Supplier">El-Amir Electronics</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/GD3/" tstamps="/56EF055E/"/>
+      <tstamp>575FF104</tstamp>
+    </comp>
+    <comp ref="R605">
+      <value>60</value>
+      <footprint>gatedrive:Resistor_multi</footprint>
+      <fields>
+        <field name="Supplier">Al amir</field>
+      </fields>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD3/" tstamps="/56EF055E/"/>
+      <tstamp>575FF105</tstamp>
+    </comp>
+    <comp ref="R606">
+      <value>30ohm ,0.5W</value>
+      <footprint>gatedrive:Resistor_multi</footprint>
+      <fields>
+        <field name="Supplier">Supplier_name</field>
+      </fields>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD3/" tstamps="/56EF055E/"/>
+      <tstamp>575FF106</tstamp>
+    </comp>
+    <comp ref="P601">
+      <value>CONN_01X03</value>
+      <footprint>gatedrive:conn</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/GD3/" tstamps="/56EF055E/"/>
+      <tstamp>575FF108</tstamp>
+    </comp>
+    <comp ref="P602">
+      <value>CONN_01X03</value>
+      <footprint>gatedrive:conn</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/GD3/" tstamps="/56EF055E/"/>
+      <tstamp>575FF109</tstamp>
+    </comp>
+    <comp ref="C604">
+      <value>0.1uF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD3/" tstamps="/56EF055E/"/>
+      <tstamp>575FF10C</tstamp>
+    </comp>
+    <comp ref="IC602">
+      <value>IXDD614PI</value>
+      <footprint>gatedrive:DIP-8_W7.62mm_LongPads</footprint>
+      <fields>
+        <field name="Supplier">CHINA[already bought]</field>
+      </fields>
+      <libsource lib="transistors" part="IXDD614PI"/>
+      <sheetpath names="/GD3/" tstamps="/56EF055E/"/>
+      <tstamp>575FF10D</tstamp>
+    </comp>
+    <comp ref="IC701">
+      <value>HCPL-316J</value>
+      <footprint>Housings_SOIC:SOIC-16_7.5x10.3mm_Pitch1.27mm</footprint>
+      <fields>
+        <field name="Supplier">CHINA [ already bought]</field>
+      </fields>
+      <libsource lib="opto" part="HCPL-316J"/>
+      <sheetpath names="/GD2/" tstamps="/56EF055C/"/>
+      <tstamp>575FED19</tstamp>
+    </comp>
+    <comp ref="R704">
+      <value>100</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD2/" tstamps="/56EF055C/"/>
+      <tstamp>575FED1A</tstamp>
+    </comp>
+    <comp ref="R703">
+      <value>100</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD2/" tstamps="/56EF055C/"/>
+      <tstamp>575FED1B</tstamp>
+    </comp>
+    <comp ref="D701">
+      <value>RGPO2-20</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10</footprint>
+      <fields>
+        <field name="Supplier">El-Amir</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/GD2/" tstamps="/56EF055C/"/>
+      <tstamp>575FED1C</tstamp>
+    </comp>
+    <comp ref="R701">
+      <value>10K</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Supplier">EL AMIR</field>
+      </fields>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD2/" tstamps="/56EF055C/"/>
+      <tstamp>575FED1D</tstamp>
+    </comp>
+    <comp ref="C701">
+      <value>0.1uF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <fields>
+        <field name="Supplier">EL AMIR</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD2/" tstamps="/56EF055C/"/>
+      <tstamp>575FED1E</tstamp>
+    </comp>
+    <comp ref="C706">
+      <value>100pF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD2/" tstamps="/56EF055C/"/>
+      <tstamp>575FED1F</tstamp>
+    </comp>
+    <comp ref="C703">
+      <value>0.1uF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD2/" tstamps="/56EF055C/"/>
+      <tstamp>575FED20</tstamp>
+    </comp>
+    <comp ref="C705">
+      <value>0.1uF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD2/" tstamps="/56EF055C/"/>
+      <tstamp>575FED21</tstamp>
+    </comp>
+    <comp ref="C702">
+      <value>330pF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD2/" tstamps="/56EF055C/"/>
+      <tstamp>575FED22</tstamp>
+    </comp>
+    <comp ref="R702">
+      <value>25K</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD2/" tstamps="/56EF055C/"/>
+      <tstamp>575FED29</tstamp>
+    </comp>
+    <comp ref="C707">
+      <value>10nF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD2/" tstamps="/56EF055C/"/>
+      <tstamp>575FED2A</tstamp>
+    </comp>
+    <comp ref="D702">
+      <value>~</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-201AD_Horizontal_RM15</footprint>
+      <fields>
+        <field name="Supplier">El-Amir Electronics</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/GD2/" tstamps="/56EF055C/"/>
+      <tstamp>575FED2B</tstamp>
+    </comp>
+    <comp ref="R705">
+      <value>60</value>
+      <footprint>gatedrive:Resistor_multi</footprint>
+      <fields>
+        <field name="Supplier">Al amir</field>
+      </fields>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD2/" tstamps="/56EF055C/"/>
+      <tstamp>575FED2C</tstamp>
+    </comp>
+    <comp ref="R706">
+      <value>30ohm ,0.5W</value>
+      <footprint>gatedrive:Resistor_multi</footprint>
+      <fields>
+        <field name="Supplier">Supplier_name</field>
+      </fields>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD2/" tstamps="/56EF055C/"/>
+      <tstamp>575FED2D</tstamp>
+    </comp>
+    <comp ref="P701">
+      <value>CONN_01X03</value>
+      <footprint>gatedrive:conn</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/GD2/" tstamps="/56EF055C/"/>
+      <tstamp>575FED2F</tstamp>
+    </comp>
+    <comp ref="P702">
+      <value>CONN_01X03</value>
+      <footprint>gatedrive:conn</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/GD2/" tstamps="/56EF055C/"/>
+      <tstamp>575FED30</tstamp>
+    </comp>
+    <comp ref="C704">
+      <value>0.1uF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD2/" tstamps="/56EF055C/"/>
+      <tstamp>575FED33</tstamp>
+    </comp>
+    <comp ref="IC702">
+      <value>IXDD614PI</value>
+      <footprint>gatedrive:DIP-8_W7.62mm_LongPads</footprint>
+      <fields>
+        <field name="Supplier">CHINA[already bought]</field>
+      </fields>
+      <libsource lib="transistors" part="IXDD614PI"/>
+      <sheetpath names="/GD2/" tstamps="/56EF055C/"/>
+      <tstamp>575FED34</tstamp>
+    </comp>
+    <comp ref="P801">
+      <value>FromShuntResistor</value>
+      <footprint>Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/protection/" tstamps="/56FD530B/"/>
+      <tstamp>570E6ED8</tstamp>
+    </comp>
+    <comp ref="R802">
+      <value>1.24k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/protection/" tstamps="/56FD530B/"/>
+      <tstamp>570E6FD7</tstamp>
+    </comp>
+    <comp ref="C801">
+      <value>33pf</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/protection/" tstamps="/56FD530B/"/>
+      <tstamp>570E702F</tstamp>
+    </comp>
+    <comp ref="R803">
+      <value>20k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/protection/" tstamps="/56FD530B/"/>
+      <tstamp>570E7134</tstamp>
+    </comp>
+    <comp ref="R801">
+      <value>1.24k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/protection/" tstamps="/56FD530B/"/>
+      <tstamp>570E716D</tstamp>
+    </comp>
+    <comp ref="R808">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/protection/" tstamps="/56FD530B/"/>
+      <tstamp>570E7AAD</tstamp>
+    </comp>
+    <comp ref="RV801">
+      <value>10k</value>
+      <footprint>Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp</footprint>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/protection/" tstamps="/56FD530B/"/>
+      <tstamp>570E8130</tstamp>
+    </comp>
+    <comp ref="R810">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/protection/" tstamps="/56FD530B/"/>
+      <tstamp>570E89E0</tstamp>
+    </comp>
+    <comp ref="R809">
+      <value>2.2MEG</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/protection/" tstamps="/56FD530B/"/>
+      <tstamp>57190BE2</tstamp>
+    </comp>
+    <comp ref="R811">
+      <value>1.24k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/protection/" tstamps="/56FD530B/"/>
+      <tstamp>57191B18</tstamp>
+    </comp>
+    <comp ref="D801">
+      <value>ZENER</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10</footprint>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/protection/" tstamps="/56FD530B/"/>
+      <tstamp>57192200</tstamp>
+    </comp>
+    <comp ref="P802">
+      <value>FromNtc</value>
+      <footprint>Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/protection/" tstamps="/56FD530B/"/>
+      <tstamp>571923EC</tstamp>
+    </comp>
+    <comp ref="R806">
+      <value>560</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/protection/" tstamps="/56FD530B/"/>
+      <tstamp>57192529</tstamp>
+    </comp>
+    <comp ref="R807">
+      <value>10K</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/protection/" tstamps="/56FD530B/"/>
+      <tstamp>571926C9</tstamp>
+    </comp>
+    <comp ref="R804">
+      <value>61.9k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/protection/" tstamps="/56FD530B/"/>
+      <tstamp>570E77E7</tstamp>
+    </comp>
+    <comp ref="R805">
+      <value>61.9k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/protection/" tstamps="/56FD530B/"/>
+      <tstamp>570E777B</tstamp>
+    </comp>
+    <comp ref="C802">
+      <value>33p</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/protection/" tstamps="/56FD530B/"/>
+      <tstamp>57193F9A</tstamp>
+    </comp>
+    <comp ref="U802">
+      <value>LM339</value>
+      <footprint>Housings_DIP:DIP-14_W7.62mm_LongPads</footprint>
+      <libsource lib="linear" part="LM339"/>
+      <sheetpath names="/protection/" tstamps="/56FD530B/"/>
+      <tstamp>575D4F01</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1u</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/protection/" tstamps="/56FD530B/"/>
+      <tstamp>576735C7</tstamp>
+    </comp>
+    <comp ref="IC901">
+      <value>HCPL-316J</value>
+      <footprint>Housings_SOIC:SOIC-16_7.5x10.3mm_Pitch1.27mm</footprint>
+      <fields>
+        <field name="Supplier">CHINA [ already bought]</field>
+      </fields>
+      <libsource lib="opto" part="HCPL-316J"/>
+      <sheetpath names="/GD1/" tstamps="/56EF0569/"/>
+      <tstamp>56EFD9AD</tstamp>
+    </comp>
+    <comp ref="R904">
+      <value>100</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD1/" tstamps="/56EF0569/"/>
+      <tstamp>56EFD9AE</tstamp>
+    </comp>
+    <comp ref="R903">
+      <value>100</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD1/" tstamps="/56EF0569/"/>
+      <tstamp>56EFD9B0</tstamp>
+    </comp>
+    <comp ref="D901">
+      <value>RGPO2-20</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10</footprint>
+      <fields>
+        <field name="Supplier">El-Amir</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/GD1/" tstamps="/56EF0569/"/>
+      <tstamp>56EFD9B1</tstamp>
+    </comp>
+    <comp ref="R901">
+      <value>10K</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Supplier">EL AMIR</field>
+      </fields>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD1/" tstamps="/56EF0569/"/>
+      <tstamp>56EFD9B2</tstamp>
+    </comp>
+    <comp ref="C901">
+      <value>0.1uF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <fields>
+        <field name="Supplier">EL AMIR</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD1/" tstamps="/56EF0569/"/>
+      <tstamp>56EFD9B4</tstamp>
+    </comp>
+    <comp ref="C906">
+      <value>100pF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD1/" tstamps="/56EF0569/"/>
+      <tstamp>56EFD9B5</tstamp>
+    </comp>
+    <comp ref="C903">
+      <value>0.1uF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD1/" tstamps="/56EF0569/"/>
+      <tstamp>56EFD9B6</tstamp>
+    </comp>
+    <comp ref="C905">
+      <value>0.1uF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD1/" tstamps="/56EF0569/"/>
+      <tstamp>56EFD9B8</tstamp>
+    </comp>
+    <comp ref="C902">
+      <value>330pF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD1/" tstamps="/56EF0569/"/>
+      <tstamp>56EFD9B9</tstamp>
+    </comp>
+    <comp ref="R902">
+      <value>25K</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD1/" tstamps="/56EF0569/"/>
+      <tstamp>56EFD9C0</tstamp>
+    </comp>
+    <comp ref="C907">
+      <value>10nF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD1/" tstamps="/56EF0569/"/>
+      <tstamp>56EFD9C1</tstamp>
+    </comp>
+    <comp ref="D902">
+      <value>~</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-201AD_Horizontal_RM15</footprint>
+      <fields>
+        <field name="Supplier">El-Amir Electronics</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/GD1/" tstamps="/56EF0569/"/>
+      <tstamp>56EFD9C2</tstamp>
+    </comp>
+    <comp ref="R905">
+      <value>60</value>
+      <footprint>gatedrive:Resistor_multi</footprint>
+      <fields>
+        <field name="Supplier">Al amir</field>
+      </fields>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD1/" tstamps="/56EF0569/"/>
+      <tstamp>56EFD9C3</tstamp>
+    </comp>
+    <comp ref="R906">
+      <value>30ohm ,0.5W</value>
+      <footprint>gatedrive:Resistor_multi</footprint>
+      <fields>
+        <field name="Supplier">Supplier_name</field>
+      </fields>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/GD1/" tstamps="/56EF0569/"/>
+      <tstamp>56EFD9C4</tstamp>
+    </comp>
+    <comp ref="P901">
+      <value>CONN_01X03</value>
+      <footprint>gatedrive:conn</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/GD1/" tstamps="/56EF0569/"/>
+      <tstamp>56F77660</tstamp>
+    </comp>
+    <comp ref="P902">
+      <value>CONN_01X03</value>
+      <footprint>gatedrive:conn</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/GD1/" tstamps="/56EF0569/"/>
+      <tstamp>56F77714</tstamp>
+    </comp>
+    <comp ref="C904">
+      <value>0.1uF</value>
+      <footprint>gatedrive:C_Disc</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/GD1/" tstamps="/56EF0569/"/>
+      <tstamp>56EFD9B7</tstamp>
+    </comp>
+    <comp ref="IC902">
+      <value>IXDD614PI</value>
+      <footprint>gatedrive:DIP-8_W7.62mm_LongPads</footprint>
+      <fields>
+        <field name="Supplier">CHINA[already bought]</field>
+      </fields>
+      <libsource lib="transistors" part="IXDD614PI"/>
+      <sheetpath names="/GD1/" tstamps="/56EF0569/"/>
+      <tstamp>56EFD9AC</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector, single row, 01x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X12">
+      <description>Connector, single row, 01x12</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X12</fp>
+        <fp>Pin_Header_Angled_1X12</fp>
+        <fp>Socket_Strip_Straight_1X12</fp>
+        <fp>Socket_Strip_Angled_1X12</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="opto" part="HCPL-316J">
+      <description>2.5 Amp Gate Drive Optocoupler with Integrated (VCE) Desaturation Detection and Fault Status Feedback</description>
+      <docs>http://www.avagotech.com/docs/AV02-0717EN</docs>
+      <footprints>
+        <fp>SOIC-*_7.5x10.3mm_Pitch1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HCPL-316J</field>
+        <field name="Footprint">Housings_SOIC:SOIC-16_7.5x10.3mm_Pitch1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin+" type="power_in"/>
+        <pin num="2" name="Vin-" type="power_in"/>
+        <pin num="3" name="Vcc1" type="power_in"/>
+        <pin num="4" name="GND1" type="power_in"/>
+        <pin num="5" name="~RESET" type="input"/>
+        <pin num="6" name="~FAULT" type="openCol"/>
+        <pin num="7" name="Vled1+" type="NotConnected"/>
+        <pin num="8" name="Vled1-" type="power_in"/>
+        <pin num="9" name="VEE" type="power_in"/>
+        <pin num="10" name="VEE" type="power_in"/>
+        <pin num="11" name="Vout" type="output"/>
+        <pin num="12" name="Vc" type="power_in"/>
+        <pin num="13" name="Vcc2" type="power_in"/>
+        <pin num="14" name="DESAT" type="input"/>
+        <pin num="15" name="Vled2+" type="NotConnected"/>
+        <pin num="16" name="VE" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="IXDD614PI">
+      <fields>
+        <field name="Reference">GDIC</field>
+        <field name="Value">IXDD614PI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="IN" type="input"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="OUT" type="3state"/>
+        <pin num="7" name="OUT" type="3state"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-*</fp>
+        <fp>LED_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="linear" part="LM339">
+      <description>Quad comparator.</description>
+      <docs>op_amps/lm139.pdf</docs>
+      <footprints>
+        <fp>SOIC*</fp>
+        <fp>DIP*</fp>
+        <fp>SSOP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM339</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="openCol"/>
+        <pin num="2" name="~" type="openCol"/>
+        <pin num="3" name="V+" type="power_in"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="+" type="input"/>
+        <pin num="8" name="-" type="input"/>
+        <pin num="9" name="+" type="input"/>
+        <pin num="10" name="-" type="input"/>
+        <pin num="11" name="+" type="input"/>
+        <pin num="12" name="V-" type="power_in"/>
+        <pin num="13" name="~" type="openCol"/>
+        <pin num="14" name="~" type="openCol"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT">
+      <description>Potentionmetre</description>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R_Small">
+      <description>Resistor</description>
+      <footprints>
+        <fp>Resistor_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="ZENER">
+      <description>Diode zener</description>
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ZENER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Users\anas\kicad-library\library\device.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>C:\Users\anas\kicad-library\library\transistors.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Users\anas\kicad-library\library\conn.lib</uri>
+    </library>
+    <library logical="linear">
+      <uri>C:\Users\anas\kicad-library\library\linear.lib</uri>
+    </library>
+    <library logical="opto">
+      <uri>C:\Users\anas\kicad-library\library\opto.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="~OVERTEMP">
+      <node ref="P101" pin="3"/>
+      <node ref="R811" pin="2"/>
+      <node ref="U802" pin="1"/>
+      <node ref="R809" pin="2"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="IC301" pin="2"/>
+      <node ref="C701" pin="2"/>
+      <node ref="IC301" pin="8"/>
+      <node ref="IC301" pin="4"/>
+      <node ref="C401" pin="2"/>
+      <node ref="C402" pin="2"/>
+      <node ref="IC401" pin="2"/>
+      <node ref="IC401" pin="4"/>
+      <node ref="C201" pin="2"/>
+      <node ref="C202" pin="2"/>
+      <node ref="IC201" pin="2"/>
+      <node ref="IC201" pin="4"/>
+      <node ref="IC201" pin="8"/>
+      <node ref="C702" pin="2"/>
+      <node ref="IC701" pin="8"/>
+      <node ref="IC701" pin="4"/>
+      <node ref="IC701" pin="2"/>
+      <node ref="C301" pin="2"/>
+      <node ref="C302" pin="2"/>
+      <node ref="IC501" pin="8"/>
+      <node ref="IC501" pin="4"/>
+      <node ref="C601" pin="2"/>
+      <node ref="C602" pin="2"/>
+      <node ref="IC601" pin="2"/>
+      <node ref="IC601" pin="4"/>
+      <node ref="IC601" pin="8"/>
+      <node ref="IC401" pin="8"/>
+      <node ref="C501" pin="2"/>
+      <node ref="C502" pin="2"/>
+      <node ref="IC501" pin="2"/>
+      <node ref="IC901" pin="4"/>
+      <node ref="IC901" pin="2"/>
+      <node ref="IC901" pin="8"/>
+      <node ref="U802" pin="12"/>
+      <node ref="RV801" pin="1"/>
+      <node ref="P101" pin="2"/>
+      <node ref="R103" pin="1"/>
+      <node ref="R102" pin="1"/>
+      <node ref="R101" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C902" pin="2"/>
+      <node ref="C901" pin="2"/>
+    </net>
+    <net code="3" name="+5V">
+      <node ref="C501" pin="1"/>
+      <node ref="IC601" pin="3"/>
+      <node ref="R811" pin="1"/>
+      <node ref="P802" pin="1"/>
+      <node ref="R501" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="IC401" pin="3"/>
+      <node ref="C601" pin="1"/>
+      <node ref="R601" pin="2"/>
+      <node ref="IC501" pin="3"/>
+      <node ref="IC301" pin="3"/>
+      <node ref="C301" pin="1"/>
+      <node ref="R301" pin="2"/>
+      <node ref="R901" pin="2"/>
+      <node ref="C901" pin="1"/>
+      <node ref="IC201" pin="3"/>
+      <node ref="C201" pin="1"/>
+      <node ref="R201" pin="2"/>
+      <node ref="R810" pin="2"/>
+      <node ref="R806" pin="1"/>
+      <node ref="U802" pin="3"/>
+      <node ref="C401" pin="1"/>
+      <node ref="R401" pin="2"/>
+      <node ref="IC901" pin="3"/>
+      <node ref="C701" pin="1"/>
+      <node ref="D103" pin="2"/>
+      <node ref="R701" pin="2"/>
+      <node ref="P101" pin="1"/>
+      <node ref="IC701" pin="3"/>
+    </net>
+    <net code="4" name="/T1">
+      <node ref="P101" pin="10"/>
+      <node ref="IC901" pin="1"/>
+    </net>
+    <net code="5" name="Net-(D102-Pad1)">
+      <node ref="D102" pin="1"/>
+      <node ref="R102" pin="2"/>
+    </net>
+    <net code="6" name="Net-(D101-Pad1)">
+      <node ref="D101" pin="1"/>
+      <node ref="R101" pin="2"/>
+    </net>
+    <net code="7" name="Net-(D103-Pad1)">
+      <node ref="D103" pin="1"/>
+      <node ref="R103" pin="2"/>
+    </net>
+    <net code="8" name="/T7">
+      <node ref="P101" pin="4"/>
+      <node ref="IC201" pin="1"/>
+    </net>
+    <net code="9" name="/T2">
+      <node ref="IC701" pin="1"/>
+      <node ref="P101" pin="9"/>
+    </net>
+    <net code="10" name="/T3">
+      <node ref="P101" pin="8"/>
+      <node ref="IC601" pin="1"/>
+    </net>
+    <net code="11" name="/T4">
+      <node ref="P101" pin="7"/>
+      <node ref="IC501" pin="1"/>
+    </net>
+    <net code="12" name="/T5">
+      <node ref="P101" pin="6"/>
+      <node ref="IC401" pin="1"/>
+    </net>
+    <net code="13" name="~RST">
+      <node ref="D102" pin="2"/>
+      <node ref="IC901" pin="5"/>
+      <node ref="IC301" pin="5"/>
+      <node ref="IC501" pin="5"/>
+      <node ref="IC201" pin="5"/>
+      <node ref="IC701" pin="5"/>
+      <node ref="P101" pin="11"/>
+      <node ref="IC401" pin="5"/>
+      <node ref="IC601" pin="5"/>
+    </net>
+    <net code="14" name="/T6">
+      <node ref="IC301" pin="1"/>
+      <node ref="P101" pin="5"/>
+    </net>
+    <net code="15" name="~FAULT">
+      <node ref="C302" pin="1"/>
+      <node ref="IC501" pin="6"/>
+      <node ref="R301" pin="1"/>
+      <node ref="R401" pin="1"/>
+      <node ref="IC201" pin="6"/>
+      <node ref="R501" pin="1"/>
+      <node ref="C702" pin="1"/>
+      <node ref="C502" pin="1"/>
+      <node ref="C202" pin="1"/>
+      <node ref="C902" pin="1"/>
+      <node ref="C402" pin="1"/>
+      <node ref="R901" pin="1"/>
+      <node ref="R201" pin="1"/>
+      <node ref="IC401" pin="6"/>
+      <node ref="IC901" pin="6"/>
+      <node ref="U802" pin="2"/>
+      <node ref="C602" pin="1"/>
+      <node ref="D101" pin="2"/>
+      <node ref="IC701" pin="6"/>
+      <node ref="R601" pin="1"/>
+      <node ref="R701" pin="1"/>
+      <node ref="R810" pin="1"/>
+      <node ref="P101" pin="12"/>
+      <node ref="IC601" pin="6"/>
+      <node ref="IC301" pin="6"/>
+    </net>
+    <net code="16" name="c2">
+      <node ref="P702" pin="2"/>
+      <node ref="D701" pin="1"/>
+    </net>
+    <net code="17" name="Net-(D702-Pad1)">
+      <node ref="D702" pin="1"/>
+      <node ref="R705" pin="1"/>
+    </net>
+    <net code="18" name="Net-(D701-Pad2)">
+      <node ref="R703" pin="2"/>
+      <node ref="D701" pin="2"/>
+    </net>
+    <net code="19" name="Net-(D702-Pad2)">
+      <node ref="D702" pin="2"/>
+      <node ref="R706" pin="1"/>
+      <node ref="IC702" pin="6"/>
+      <node ref="IC702" pin="7"/>
+    </net>
+    <net code="20" name="G2">
+      <node ref="R705" pin="2"/>
+      <node ref="P702" pin="1"/>
+      <node ref="R706" pin="2"/>
+    </net>
+    <net code="21" name="Net-(IC701-Pad15)">
+      <node ref="IC701" pin="15"/>
+    </net>
+    <net code="22" name="Net-(IC701-Pad7)">
+      <node ref="IC701" pin="7"/>
+    </net>
+    <net code="23" name="COM2">
+      <node ref="C703" pin="2"/>
+      <node ref="IC701" pin="16"/>
+      <node ref="C704" pin="1"/>
+      <node ref="P702" pin="3"/>
+      <node ref="P701" pin="1"/>
+      <node ref="C706" pin="2"/>
+    </net>
+    <net code="24" name="15V2">
+      <node ref="C705" pin="1"/>
+      <node ref="IC701" pin="12"/>
+      <node ref="IC702" pin="1"/>
+      <node ref="IC701" pin="13"/>
+      <node ref="P701" pin="2"/>
+      <node ref="C704" pin="2"/>
+      <node ref="IC702" pin="3"/>
+      <node ref="IC702" pin="8"/>
+    </net>
+    <net code="25" name="Net-(C706-Pad1)">
+      <node ref="C706" pin="1"/>
+      <node ref="IC701" pin="14"/>
+      <node ref="R703" pin="1"/>
+    </net>
+    <net code="26" name="-5v2">
+      <node ref="C705" pin="2"/>
+      <node ref="C703" pin="1"/>
+      <node ref="IC702" pin="4"/>
+      <node ref="IC702" pin="5"/>
+      <node ref="R702" pin="1"/>
+      <node ref="IC701" pin="9"/>
+      <node ref="IC701" pin="10"/>
+      <node ref="C707" pin="2"/>
+      <node ref="P701" pin="3"/>
+    </net>
+    <net code="27" name="Net-(IC701-Pad11)">
+      <node ref="R702" pin="2"/>
+      <node ref="R704" pin="2"/>
+      <node ref="IC701" pin="11"/>
+    </net>
+    <net code="28" name="Net-(C707-Pad1)">
+      <node ref="IC702" pin="2"/>
+      <node ref="R704" pin="1"/>
+      <node ref="C707" pin="1"/>
+    </net>
+    <net code="29" name="c3">
+      <node ref="P602" pin="2"/>
+      <node ref="D601" pin="1"/>
+    </net>
+    <net code="30" name="Net-(D602-Pad1)">
+      <node ref="D602" pin="1"/>
+      <node ref="R605" pin="1"/>
+    </net>
+    <net code="31" name="Net-(D601-Pad2)">
+      <node ref="D601" pin="2"/>
+      <node ref="R603" pin="2"/>
+    </net>
+    <net code="32" name="Net-(D602-Pad2)">
+      <node ref="D602" pin="2"/>
+      <node ref="IC602" pin="6"/>
+      <node ref="IC602" pin="7"/>
+      <node ref="R606" pin="1"/>
+    </net>
+    <net code="33" name="G3">
+      <node ref="P602" pin="1"/>
+      <node ref="R606" pin="2"/>
+      <node ref="R605" pin="2"/>
+    </net>
+    <net code="34" name="Net-(IC601-Pad15)">
+      <node ref="IC601" pin="15"/>
+    </net>
+    <net code="35" name="Net-(IC601-Pad7)">
+      <node ref="IC601" pin="7"/>
+    </net>
+    <net code="36" name="COM3">
+      <node ref="IC601" pin="16"/>
+      <node ref="P602" pin="3"/>
+      <node ref="P601" pin="1"/>
+      <node ref="C604" pin="1"/>
+      <node ref="C606" pin="2"/>
+      <node ref="C603" pin="2"/>
+    </net>
+    <net code="37" name="Net-(C606-Pad1)">
+      <node ref="C606" pin="1"/>
+      <node ref="IC601" pin="14"/>
+      <node ref="R603" pin="1"/>
+    </net>
+    <net code="38" name="15V3">
+      <node ref="IC602" pin="1"/>
+      <node ref="C605" pin="1"/>
+      <node ref="IC602" pin="8"/>
+      <node ref="IC602" pin="3"/>
+      <node ref="C604" pin="2"/>
+      <node ref="IC601" pin="12"/>
+      <node ref="IC601" pin="13"/>
+      <node ref="P601" pin="2"/>
+    </net>
+    <net code="39" name="-5v3">
+      <node ref="C607" pin="2"/>
+      <node ref="IC601" pin="10"/>
+      <node ref="IC601" pin="9"/>
+      <node ref="IC602" pin="4"/>
+      <node ref="IC602" pin="5"/>
+      <node ref="C603" pin="1"/>
+      <node ref="C605" pin="2"/>
+      <node ref="P601" pin="3"/>
+      <node ref="R602" pin="1"/>
+    </net>
+    <net code="40" name="Net-(IC601-Pad11)">
+      <node ref="R602" pin="2"/>
+      <node ref="IC601" pin="11"/>
+      <node ref="R604" pin="2"/>
+    </net>
+    <net code="41" name="Net-(C607-Pad1)">
+      <node ref="IC602" pin="2"/>
+      <node ref="R604" pin="1"/>
+      <node ref="C607" pin="1"/>
+    </net>
+    <net code="42" name="c4">
+      <node ref="P502" pin="2"/>
+      <node ref="D501" pin="1"/>
+    </net>
+    <net code="43" name="Net-(D502-Pad1)">
+      <node ref="R505" pin="1"/>
+      <node ref="D502" pin="1"/>
+    </net>
+    <net code="44" name="Net-(D501-Pad2)">
+      <node ref="R503" pin="2"/>
+      <node ref="D501" pin="2"/>
+    </net>
+    <net code="45" name="Net-(D502-Pad2)">
+      <node ref="IC502" pin="6"/>
+      <node ref="IC502" pin="7"/>
+      <node ref="R506" pin="1"/>
+      <node ref="D502" pin="2"/>
+    </net>
+    <net code="46" name="G4">
+      <node ref="P502" pin="1"/>
+      <node ref="R505" pin="2"/>
+      <node ref="R506" pin="2"/>
+    </net>
+    <net code="47" name="Net-(IC501-Pad15)">
+      <node ref="IC501" pin="15"/>
+    </net>
+    <net code="48" name="Net-(IC501-Pad7)">
+      <node ref="IC501" pin="7"/>
+    </net>
+    <net code="49" name="COM4">
+      <node ref="P502" pin="3"/>
+      <node ref="P501" pin="1"/>
+      <node ref="C503" pin="2"/>
+      <node ref="C506" pin="2"/>
+      <node ref="IC501" pin="16"/>
+      <node ref="C504" pin="1"/>
+    </net>
+    <net code="50" name="15V4">
+      <node ref="P501" pin="2"/>
+      <node ref="C505" pin="1"/>
+      <node ref="C504" pin="2"/>
+      <node ref="IC502" pin="1"/>
+      <node ref="IC502" pin="8"/>
+      <node ref="IC502" pin="3"/>
+      <node ref="IC501" pin="13"/>
+      <node ref="IC501" pin="12"/>
+    </net>
+    <net code="51" name="-5v4">
+      <node ref="P501" pin="3"/>
+      <node ref="IC502" pin="5"/>
+      <node ref="IC502" pin="4"/>
+      <node ref="C507" pin="2"/>
+      <node ref="C503" pin="1"/>
+      <node ref="C505" pin="2"/>
+      <node ref="IC501" pin="10"/>
+      <node ref="R502" pin="1"/>
+      <node ref="IC501" pin="9"/>
+    </net>
+    <net code="52" name="Net-(C506-Pad1)">
+      <node ref="R503" pin="1"/>
+      <node ref="IC501" pin="14"/>
+      <node ref="C506" pin="1"/>
+    </net>
+    <net code="53" name="Net-(IC501-Pad11)">
+      <node ref="IC501" pin="11"/>
+      <node ref="R504" pin="2"/>
+      <node ref="R502" pin="2"/>
+    </net>
+    <net code="54" name="Net-(C507-Pad1)">
+      <node ref="IC502" pin="2"/>
+      <node ref="R504" pin="1"/>
+      <node ref="C507" pin="1"/>
+    </net>
+    <net code="55" name="c5">
+      <node ref="P402" pin="2"/>
+      <node ref="D401" pin="1"/>
+    </net>
+    <net code="56" name="Net-(D402-Pad1)">
+      <node ref="R405" pin="1"/>
+      <node ref="D402" pin="1"/>
+    </net>
+    <net code="57" name="Net-(D402-Pad2)">
+      <node ref="IC402" pin="7"/>
+      <node ref="IC402" pin="6"/>
+      <node ref="D402" pin="2"/>
+      <node ref="R406" pin="1"/>
+    </net>
+    <net code="58" name="Net-(D401-Pad2)">
+      <node ref="R403" pin="2"/>
+      <node ref="D401" pin="2"/>
+    </net>
+    <net code="59" name="G5">
+      <node ref="P402" pin="1"/>
+      <node ref="R406" pin="2"/>
+      <node ref="R405" pin="2"/>
+    </net>
+    <net code="60" name="Net-(IC401-Pad15)">
+      <node ref="IC401" pin="15"/>
+    </net>
+    <net code="61" name="Net-(IC401-Pad7)">
+      <node ref="IC401" pin="7"/>
+    </net>
+    <net code="62" name="COM5">
+      <node ref="IC401" pin="16"/>
+      <node ref="C404" pin="1"/>
+      <node ref="C406" pin="2"/>
+      <node ref="C403" pin="2"/>
+      <node ref="P402" pin="3"/>
+      <node ref="P401" pin="1"/>
+    </net>
+    <net code="63" name="Net-(C406-Pad1)">
+      <node ref="R403" pin="1"/>
+      <node ref="C406" pin="1"/>
+      <node ref="IC401" pin="14"/>
+    </net>
+    <net code="64" name="15V5">
+      <node ref="C404" pin="2"/>
+      <node ref="IC402" pin="1"/>
+      <node ref="C405" pin="1"/>
+      <node ref="IC402" pin="3"/>
+      <node ref="IC402" pin="8"/>
+      <node ref="P401" pin="2"/>
+      <node ref="IC401" pin="13"/>
+      <node ref="IC401" pin="12"/>
+    </net>
+    <net code="65" name="-5v5">
+      <node ref="P401" pin="3"/>
+      <node ref="C407" pin="2"/>
+      <node ref="C403" pin="1"/>
+      <node ref="IC401" pin="9"/>
+      <node ref="R402" pin="1"/>
+      <node ref="C405" pin="2"/>
+      <node ref="IC401" pin="10"/>
+      <node ref="IC402" pin="4"/>
+      <node ref="IC402" pin="5"/>
+    </net>
+    <net code="66" name="Net-(IC401-Pad11)">
+      <node ref="R404" pin="2"/>
+      <node ref="IC401" pin="11"/>
+      <node ref="R402" pin="2"/>
+    </net>
+    <net code="67" name="Net-(C407-Pad1)">
+      <node ref="C407" pin="1"/>
+      <node ref="R404" pin="1"/>
+      <node ref="IC402" pin="2"/>
+    </net>
+    <net code="68" name="c6">
+      <node ref="D301" pin="1"/>
+      <node ref="P302" pin="2"/>
+    </net>
+    <net code="69" name="Net-(D302-Pad1)">
+      <node ref="R305" pin="1"/>
+      <node ref="D302" pin="1"/>
+    </net>
+    <net code="70" name="Net-(D301-Pad2)">
+      <node ref="R303" pin="2"/>
+      <node ref="D301" pin="2"/>
+    </net>
+    <net code="71" name="Net-(D302-Pad2)">
+      <node ref="IC302" pin="7"/>
+      <node ref="IC302" pin="6"/>
+      <node ref="R306" pin="1"/>
+      <node ref="D302" pin="2"/>
+    </net>
+    <net code="72" name="G6">
+      <node ref="R306" pin="2"/>
+      <node ref="R305" pin="2"/>
+      <node ref="P302" pin="1"/>
+    </net>
+    <net code="73" name="Net-(IC301-Pad15)">
+      <node ref="IC301" pin="15"/>
+    </net>
+    <net code="74" name="Net-(IC301-Pad7)">
+      <node ref="IC301" pin="7"/>
+    </net>
+    <net code="75" name="COM6">
+      <node ref="C304" pin="1"/>
+      <node ref="IC301" pin="16"/>
+      <node ref="C306" pin="2"/>
+      <node ref="C303" pin="2"/>
+      <node ref="P301" pin="1"/>
+      <node ref="P302" pin="3"/>
+    </net>
+    <net code="76" name="Net-(C306-Pad1)">
+      <node ref="C306" pin="1"/>
+      <node ref="R303" pin="1"/>
+      <node ref="IC301" pin="14"/>
+    </net>
+    <net code="77" name="15V6">
+      <node ref="IC301" pin="12"/>
+      <node ref="IC301" pin="13"/>
+      <node ref="C305" pin="1"/>
+      <node ref="IC302" pin="8"/>
+      <node ref="P301" pin="2"/>
+      <node ref="IC302" pin="3"/>
+      <node ref="C304" pin="2"/>
+      <node ref="IC302" pin="1"/>
+    </net>
+    <net code="78" name="-5v6">
+      <node ref="IC301" pin="9"/>
+      <node ref="R302" pin="1"/>
+      <node ref="P301" pin="3"/>
+      <node ref="C307" pin="2"/>
+      <node ref="IC301" pin="10"/>
+      <node ref="IC302" pin="4"/>
+      <node ref="IC302" pin="5"/>
+      <node ref="C303" pin="1"/>
+      <node ref="C305" pin="2"/>
+    </net>
+    <net code="79" name="Net-(IC301-Pad11)">
+      <node ref="IC301" pin="11"/>
+      <node ref="R302" pin="2"/>
+      <node ref="R304" pin="2"/>
+    </net>
+    <net code="80" name="Net-(C307-Pad1)">
+      <node ref="C307" pin="1"/>
+      <node ref="R304" pin="1"/>
+      <node ref="IC302" pin="2"/>
+    </net>
+    <net code="81" name="c7">
+      <node ref="D201" pin="1"/>
+      <node ref="P202" pin="2"/>
+    </net>
+    <net code="82" name="Net-(D202-Pad1)">
+      <node ref="R205" pin="1"/>
+      <node ref="D202" pin="1"/>
+    </net>
+    <net code="83" name="Net-(D201-Pad2)">
+      <node ref="D201" pin="2"/>
+      <node ref="R203" pin="2"/>
+    </net>
+    <net code="84" name="Net-(D202-Pad2)">
+      <node ref="IC202" pin="6"/>
+      <node ref="IC202" pin="7"/>
+      <node ref="D202" pin="2"/>
+      <node ref="R206" pin="1"/>
+    </net>
+    <net code="85" name="G7">
+      <node ref="P202" pin="1"/>
+      <node ref="R205" pin="2"/>
+      <node ref="R206" pin="2"/>
+    </net>
+    <net code="86" name="Net-(IC201-Pad15)">
+      <node ref="IC201" pin="15"/>
+    </net>
+    <net code="87" name="Net-(IC201-Pad7)">
+      <node ref="IC201" pin="7"/>
+    </net>
+    <net code="88" name="COM7">
+      <node ref="C204" pin="1"/>
+      <node ref="IC201" pin="16"/>
+      <node ref="P202" pin="3"/>
+      <node ref="P201" pin="1"/>
+      <node ref="C203" pin="2"/>
+      <node ref="C206" pin="2"/>
+    </net>
+    <net code="89" name="15V7">
+      <node ref="IC201" pin="13"/>
+      <node ref="IC201" pin="12"/>
+      <node ref="IC202" pin="3"/>
+      <node ref="P201" pin="2"/>
+      <node ref="IC202" pin="1"/>
+      <node ref="IC202" pin="8"/>
+      <node ref="C205" pin="1"/>
+      <node ref="C204" pin="2"/>
+    </net>
+    <net code="90" name="-5v7">
+      <node ref="P201" pin="3"/>
+      <node ref="IC201" pin="9"/>
+      <node ref="C203" pin="1"/>
+      <node ref="C205" pin="2"/>
+      <node ref="C207" pin="2"/>
+      <node ref="R202" pin="1"/>
+      <node ref="IC201" pin="10"/>
+      <node ref="IC202" pin="4"/>
+      <node ref="IC202" pin="5"/>
+    </net>
+    <net code="91" name="Net-(C206-Pad1)">
+      <node ref="IC201" pin="14"/>
+      <node ref="R203" pin="1"/>
+      <node ref="C206" pin="1"/>
+    </net>
+    <net code="92" name="Net-(IC201-Pad11)">
+      <node ref="IC201" pin="11"/>
+      <node ref="R204" pin="2"/>
+      <node ref="R202" pin="2"/>
+    </net>
+    <net code="93" name="Net-(C207-Pad1)">
+      <node ref="R204" pin="1"/>
+      <node ref="C207" pin="1"/>
+      <node ref="IC202" pin="2"/>
+    </net>
+    <net code="94" name="-5v1">
+      <node ref="P901" pin="3"/>
+      <node ref="C907" pin="2"/>
+      <node ref="R902" pin="1"/>
+      <node ref="IC901" pin="9"/>
+      <node ref="IC902" pin="5"/>
+      <node ref="IC901" pin="10"/>
+      <node ref="C905" pin="2"/>
+      <node ref="C903" pin="1"/>
+      <node ref="IC902" pin="4"/>
+    </net>
+    <net code="95" name="c1">
+      <node ref="P902" pin="2"/>
+      <node ref="D901" pin="1"/>
+    </net>
+    <net code="96" name="Net-(D901-Pad2)">
+      <node ref="D901" pin="2"/>
+      <node ref="R903" pin="2"/>
+    </net>
+    <net code="97" name="Net-(IC901-Pad15)">
+      <node ref="IC901" pin="15"/>
+    </net>
+    <net code="98" name="Net-(D902-Pad1)">
+      <node ref="D902" pin="1"/>
+      <node ref="R905" pin="1"/>
+    </net>
+    <net code="99" name="COM1">
+      <node ref="P901" pin="1"/>
+      <node ref="C904" pin="1"/>
+      <node ref="IC901" pin="16"/>
+      <node ref="C906" pin="2"/>
+      <node ref="P902" pin="3"/>
+      <node ref="C903" pin="2"/>
+    </net>
+    <net code="100" name="Net-(IC901-Pad11)">
+      <node ref="IC901" pin="11"/>
+      <node ref="R904" pin="2"/>
+      <node ref="R902" pin="2"/>
+    </net>
+    <net code="101" name="Net-(C907-Pad1)">
+      <node ref="R904" pin="1"/>
+      <node ref="IC902" pin="2"/>
+      <node ref="C907" pin="1"/>
+    </net>
+    <net code="102" name="Net-(C906-Pad1)">
+      <node ref="IC901" pin="14"/>
+      <node ref="C906" pin="1"/>
+      <node ref="R903" pin="1"/>
+    </net>
+    <net code="103" name="G1">
+      <node ref="R906" pin="2"/>
+      <node ref="R905" pin="2"/>
+      <node ref="P902" pin="1"/>
+    </net>
+    <net code="104" name="15V1">
+      <node ref="C904" pin="2"/>
+      <node ref="IC902" pin="1"/>
+      <node ref="IC901" pin="13"/>
+      <node ref="C905" pin="1"/>
+      <node ref="IC902" pin="3"/>
+      <node ref="IC902" pin="8"/>
+      <node ref="IC901" pin="12"/>
+      <node ref="P901" pin="2"/>
+    </net>
+    <net code="105" name="Net-(D902-Pad2)">
+      <node ref="IC902" pin="7"/>
+      <node ref="IC902" pin="6"/>
+      <node ref="R906" pin="1"/>
+      <node ref="D902" pin="2"/>
+    </net>
+    <net code="106" name="Net-(IC901-Pad7)">
+      <node ref="IC901" pin="7"/>
+    </net>
+    <net code="109" name="Net-(C802-Pad1)">
+      <node ref="C802" pin="1"/>
+      <node ref="R805" pin="2"/>
+      <node ref="R808" pin="1"/>
+    </net>
+    <net code="110" name="Net-(RV801-Pad2)">
+      <node ref="U802" pin="5"/>
+      <node ref="RV801" pin="2"/>
+    </net>
+    <net code="111" name="Net-(R808-Pad2)">
+      <node ref="R808" pin="2"/>
+      <node ref="U802" pin="4"/>
+    </net>
+    <net code="112" name="/protection/-ve">
+      <node ref="R805" pin="1"/>
+      <node ref="C802" pin="2"/>
+      <node ref="R802" pin="2"/>
+      <node ref="R803" pin="2"/>
+    </net>
+    <net code="113" name="/protection/+ve">
+      <node ref="R801" pin="2"/>
+      <node ref="R803" pin="1"/>
+      <node ref="C801" pin="2"/>
+      <node ref="R804" pin="2"/>
+    </net>
+    <net code="114" name="Net-(P802-Pad2)">
+      <node ref="R807" pin="1"/>
+      <node ref="P802" pin="2"/>
+    </net>
+    <net code="115" name="Net-(D801-Pad2)">
+      <node ref="R807" pin="2"/>
+      <node ref="R809" pin="1"/>
+      <node ref="U802" pin="7"/>
+      <node ref="D801" pin="2"/>
+    </net>
+    <net code="116" name="Net-(D801-Pad1)">
+      <node ref="RV801" pin="3"/>
+      <node ref="R806" pin="2"/>
+      <node ref="U802" pin="6"/>
+      <node ref="D801" pin="1"/>
+    </net>
+    <net code="117" name="Net-(C801-Pad1)">
+      <node ref="C801" pin="1"/>
+      <node ref="R802" pin="1"/>
+      <node ref="P801" pin="2"/>
+      <node ref="R804" pin="1"/>
+    </net>
+    <net code="118" name="Net-(P801-Pad1)">
+      <node ref="R801" pin="1"/>
+      <node ref="P801" pin="1"/>
+    </net>
+  </nets>
+</export>
