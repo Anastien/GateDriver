@@ -1,30 +1,11 @@
-"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
-1;"C1,C1";"C_Disc";2;"0.1u";;;
-2;"P101";"Socket_Strip_Angled_1x12";1;"Mic General Connector";;;
-3;"C602,C902,C202,C402,C302,C602,C502,C702";"C_Disc";8;"330pF";;;
-4;"R601,R701,R501,R201,R401,R301,R807,R901";"Resistor_Horizontal_RM10mm";8;"10K";;;
-5;"R205,R605,R905,R505,R405,R705,R305";"Resistor_multi";7;"60";;;
-6;"R606,R906,R506,R406,R706,R206,R306";"Resistor_multi";7;"30ohm ,0.5W";;;
-7;"IC902,IC202,IC602,IC502,IC302,IC402,IC702";"DIP-8_W7.62mm_LongPads";7;"IXDD614PI";;;
-8;"C704,C703,C705,C901,C903,C904,C905,C201,C304,C405,C404,C403,C401,C305,C303,C701,C301,C205,C204,C203,C604,C505,C504,C601,C603,C605,C501,C503";"C_Disc";28;"0.1uF";;;
-9;"C706,C906,C406,C306,C206,C506,C606";"C_Disc";7;"100pF";;;
-10;"C707,C307,C907,C207,C507,C607,C407";"C_Disc";7;"10nF";;;
-11;"C801";"C_Disc";1;"33pf";;;
-12;"C802";"C_Disc";1;"33p";;;
-13;"P802";"TerminalBlock_Pheonix_MKDS1.5-2pol";1;"FromNtc";;;
-14;"P801";"TerminalBlock_Pheonix_MKDS1.5-2pol";1;"FromShuntResistor";;;
-15;"R304,R604,R603,R203,R204,R703,R303,R504,R503,R904,R404,R403,R704,R903";"Resistor_Horizontal_RM10mm";14;"100";;;
-16;"R602,R302,R402,R502,R702,R202,R902";"Resistor_Horizontal_RM10mm";7;"25K";;;
-17;"R810,R808";"Resistor_Horizontal_RM10mm";2;"10k";;;
-18;"R803";"Resistor_Horizontal_RM10mm";1;"20k";;;
-19;"R802,R801,R811";"Resistor_Horizontal_RM10mm";3;"1.24k";;;
-20;"R804,R805";"Resistor_Horizontal_RM10mm";2;"61.9k";;;
-21;"R806";"Resistor_Horizontal_RM10mm";1;"560";;;
-22;"R809";"Resistor_Horizontal_RM10mm";1;"2.2MEG";;;
-23;"RV801";"Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp";1;"10k";;;
-24;"IC701,IC601,IC501,IC401,IC301,IC201,IC901";"SOIC-16_7.5x10.3mm_Pitch1.27mm";7;"HCPL-316J";;;
-25;"U802";"DIP-14_W7.62mm_LongPads";1;"LM339";;;
-26;"D801";"Diode_DO-41_SOD81_Horizontal_RM10";1;"ZENER";;;
-27;"D701,D601,D501,D401,D301,D201,D901";"Diode_DO-41_SOD81_Horizontal_RM10";7;"RGPO2-20";;;
-28;"D702,D602,D502,D402,D302,D202,D902";"Diode_DO-201AD_Horizontal_RM15";7;"~";;;
-29;"P202,P201,P902,P901,P702,P701,P602,P601,P502,P501,P402,P401,P302,P301";"conn";14;"CONN_01X03";;;
+Package,Quantity,Value,Supplier
+Ceramic capacitor,10,330pF,
+Ceramic capacitor,30,0.1uF,
+Ceramic capacitor,10,100pF,
+Ceramic capacitor,10,10nF,
+Ceramic capacitor,5,33pf,…
+LM339N,1,…,RAM
+ LM336-2.5,1,…,??????
+RGPO2-20,8,…,??????
+FR307 ‘fast recovery diode’,8,…,RAM
+lm301AN,1,…,RAM
